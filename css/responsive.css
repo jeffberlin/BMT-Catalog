@@ -2,6 +2,7 @@
   .container {
     width: 1170px;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -20,6 +21,13 @@
     left: 0 !important;
   }
 
+}
+
+@media (max-width: 991px) {
+  .media-image {
+		text-align: center;
+	}
+  
 }
 
 @media (min-width: 769px) {
@@ -42,4 +50,32 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+}
+
+@@media (max-width: 768px) {
+  .header-filter.header-filter-gradient {
+		min-height: 83px !important;
+	}
+
+  .media-image {
+		margin-top: 2.5rem;
+	}
+
+  .navbar.navbar-fixed-top .navbar-collapse {
+		background-color: #195a7c;
+	}
+
+	.page-content-wrap {
+		margin-left: 0;
+	}
+
+	.boxed-layout-header.page-header.header-small  {
+			min-height: 140px !important;
+	}
+
+  h1 {
+    font-size: 34px !important;
+  }
+
 }

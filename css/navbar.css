@@ -182,3 +182,10 @@ ORANGE: #EF9A00
   -ms-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+.navbar button.navbar-toggle {
+	color: #ffffff;
+}
+.navbar button.navbar-toggle:hover {
+	color: #ef9a00;
+}
