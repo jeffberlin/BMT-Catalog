@@ -1,3 +1,8 @@
+/*
+BLUE: #195A7C
+ORANGE: #EF9A00
+*/
+
 .navbar.navbar-transparent, .navbar {
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgb(25, 90, 124) 100%);
 }
@@ -17,6 +22,7 @@
 .navbar {
   border: none !important;
   box-shadow: 0 1px 10px -6px rgba(0, 0, 0, 0.42), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 5px -2px rgba(0, 0, 0, 0.1) !important;
+  -webkit-box-shadow: 0 1px 10px -6px rgba(0, 0, 0, 0.42), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 5px -2px rgba(0, 0, 0, 0.1) !important;
   border-radius: 0;
   position: fixed;
   padding: 0;
@@ -64,7 +70,9 @@
 
 #main-navigation ul.nav > li {
   opacity: 1;
+  transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
   visibility: visible;
 }
 
@@ -82,4 +90,71 @@
   background-color: transparent;
   background-image: none;
   border-radius: 4px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  border: 1px solid;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.navbar .navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.top-menu a {
+  background: none !important;
+  letter-spacing: .7px !important;
+  font-size: 12pt;
+  text-decoration: none !important;
+  color: #ffffff;
+}
+
+/* .top-menu.active>a {
+  color: #ef9a00 !important;
+} */
+
+.navbar .navbar-nav > li:not(.btn) > a::before, .navbar .navbar-nav > li:not(.btn)::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+  content: "";
+  transition: all 300ms cubic-bezier(0.34, 0.9, 0.7, 1);
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
 }

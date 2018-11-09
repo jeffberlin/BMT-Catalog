@@ -44,10 +44,24 @@ body {
   margin-right: auto;
 }
 
+a {
+  color: #ef9a00;
+  text-decoration: underline;
+}
+
+ul {
+  letter-spacing: .5px;
+  line-height: 1.618;
+}
+
 button {
   margin: 10px 1px;
   white-space: normal;
   letter-spacing: 0;
   text-transform: uppercase;
   will-change: box-shadow,transform;
+}
+
+a:not(.btn) {
+  transition: .3s ease;
 }
