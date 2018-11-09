@@ -32,6 +32,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-weight: 300;
   line-height: 1.618;
+  color: #195a7c;
 }
 
 .center {
@@ -62,4 +63,8 @@ a:not(.btn) {
 
 h1 {
   font-size: 36px !important;
+}
+
+p {
+  letter-spacing: .5px;
 }

@@ -16,8 +16,8 @@ ORANGE: #EF9A00
 }
 
 .section {
-  padding-bottom: 8rem !important;
-  padding: 70px 0;
+  padding-bottom: 80px !important;
+  padding: 40px 0;
 }
 
 .media-image {
@@ -37,4 +37,16 @@ ORANGE: #EF9A00
   text-decoration: none;
   word-wrap: break-word;
   font-weight: 700;
+}
+
+.section-text h1, .section-text p {
+  margin: 0 0 15px;
+}
+
+.section-text p {
+  line-height: 1.618;
+}
+
+.page-content-wrap p {
+  font-size: 18px;
 }
