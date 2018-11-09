@@ -24,7 +24,7 @@ ORANGE: #EF9A00
 }
 
 .header-filter-gradient {
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgb(25, 90, 124) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgb(25, 90, 124) 100%);
 }
 
 .header-filter {
