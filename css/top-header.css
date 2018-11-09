@@ -1,0 +1,37 @@
+/*
+BLUE: #195A7C
+ORANGE: #EF9A00
+*/
+
+.page-header.header-small {
+  min-height: 300px;
+  position: relative;
+  height: auto;
+}
+
+.boxed-layout-header {
+  padding-bottom: 60px;
+}
+
+.page-header {
+  will-change: transform;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header-filter-gradient {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgb(25, 90, 124) 100%);
+}
+
+.header-filter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
