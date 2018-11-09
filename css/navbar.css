@@ -85,7 +85,7 @@ ORANGE: #EF9A00
   margin-right: 0;
 }
 
-.navbar-toggle {
+/* .navbar-toggle {
   position: relative;
   padding: 9px 10px;
   margin-top: 8px;
@@ -93,7 +93,7 @@ ORANGE: #EF9A00
   background-color: transparent;
   background-image: none;
   border-radius: 4px;
-}
+} */
 
 .navbar .navbar-toggle .icon-bar {
   border: 1px solid;
@@ -110,17 +110,6 @@ ORANGE: #EF9A00
   width: 22px;
   height: 2px;
   border-radius: 1px;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 #main-navigation ul li a {
@@ -188,4 +177,24 @@ ORANGE: #EF9A00
 }
 .navbar button.navbar-toggle:hover {
 	color: #ef9a00;
+}
+
+/* RESPONSIVE NAVBAR */
+.navbar-toggle-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar button.navbar-toggle {
+  color: #ffffff;
+}
+
+.navbar button.navbar-toggle:hover {
+  color: #EF9A00;
+}
+
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  background: transparent;
 }

@@ -27,7 +27,7 @@
   .media-image {
 		text-align: center;
 	}
-  
+
 }
 
 @media (min-width: 769px) {
@@ -54,6 +54,11 @@
 }
 
 @@media (max-width: 768px) {
+  .navbar.navbar-transparent {
+    background: #ffffff;
+    color: #555;
+  }
+
   .header-filter.header-filter-gradient {
 		min-height: 83px !important;
 	}
