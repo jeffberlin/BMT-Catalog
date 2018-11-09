@@ -4,7 +4,7 @@ ORANGE: #EF9A00
 */
 
 .footer {
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgb(25, 90, 124) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgb(25, 90, 124) 100%);
   padding: 30px 0 18px;
 }
 
