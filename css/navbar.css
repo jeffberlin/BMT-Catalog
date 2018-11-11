@@ -198,3 +198,43 @@ ORANGE: #EF9A00
 .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
   background: transparent;
 }
+
+.navbar .navbar-toggle[aria-expanded=true] .icon-bar:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 6px;
+}
+.navbar .navbar-toggle[aria-expanded=true] .icon-bar:nth-child(2) {
+  width: 0;
+  opacity: 0;
+}
+.navbar .navbar-toggle[aria-expanded=true] .icon-bar:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: -6px;
+}
+.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(1) {
+  top: 0;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(2) {
+  top: 0;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(3) {
+  top: 0;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
