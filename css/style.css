@@ -64,3 +64,8 @@ p {
 u {
   text-decoration-color: #EF9A00;
 }
+
+button:focus {
+  outline: none;
+  border: none;
+}

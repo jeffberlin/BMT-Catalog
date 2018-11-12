@@ -112,6 +112,10 @@ ORANGE: #EF9A00
   border-radius: 1px;
 }
 
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+
 #main-navigation ul li a {
   padding: 15px;
 }
