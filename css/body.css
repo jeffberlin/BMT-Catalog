@@ -21,7 +21,7 @@ ORANGE: #EF9A00
 }
 
 .media-image {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .page-content-wrap {
@@ -49,4 +49,13 @@ ORANGE: #EF9A00
 
 .page-content-wrap p {
   font-size: 18px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-icons a:first-child {
+  margin-left: 0 !important;
 }
