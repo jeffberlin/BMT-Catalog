@@ -60,12 +60,12 @@
 
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 
-}
+} */
 
 @media (max-width: 768px) {
   /* .navbar.navbar-transparent {
