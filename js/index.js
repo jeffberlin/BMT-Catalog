@@ -1,13 +1,11 @@
-$(function() {
-    var scrollUp = $("#topcontrol");
-    var bodyHeight = $("body").height();
-    $(window).scroll(function() {
-        if (bodyHeight <= $(window).height() + $(window).scrollTop() + 100) {
-            scrollUp.fadeIn();
-        } else {
-            scrollUp.hide();
-        }
-    });
+// Show the scrollTop button when user scrolls 50px down page, else hide
+$(document).scroll(function() {
+	var y = $(this).scrollTop();
+	if (y >= 50) {
+		$('#topcontrol').fadeIn();
+	} else {
+		$('#topcontrol').fadeOut();
+	}
 });
 
 // JS for scrolling back to top of the page
