@@ -10,3 +10,12 @@ ORANGE: #EF9A00
 .featured-img a {
   text-decoration: none;
 }
+
+.featured-links a:first-child {
+  margin-right: 20px;
+}
+
+.featured-links a {
+  font-size: 16px;
+  letter-spacing: .7px;
+}
