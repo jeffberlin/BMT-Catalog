@@ -170,6 +170,15 @@ ORANGE: #EF9A00
 	color: #ef9a00;
 }
 
+/* DROPDOWN SECTION */
+.dropdown-menu {
+  background-color: #195a7c;
+}
+
+.dropdown-item:hover {
+  color: #ef9a00;
+}
+
 /* RESPONSIVE NAVBAR */
 .navbar-toggle-wrapper {
   margin-left: auto;
