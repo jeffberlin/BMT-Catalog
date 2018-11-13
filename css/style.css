@@ -61,6 +61,10 @@ p {
   letter-spacing: .5px;
 }
 
+strong {
+  font-weight: bold;
+}
+
 u {
   text-decoration-color: #EF9A00;
 }
