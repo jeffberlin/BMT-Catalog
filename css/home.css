@@ -6,3 +6,7 @@ ORANGE: #EF9A00
 .featured-img {
   margin-bottom: 15px;
 }
+
+.featured-img a {
+  text-decoration: none;
+}

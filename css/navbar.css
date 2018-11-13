@@ -3,6 +3,10 @@ BLUE: #195A7C
 ORANGE: #EF9A00
 */
 
+.center {
+  text-align: center !important;
+}
+
 .navbar.navbar-transparent, .navbar {
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.8) 0%, rgb(25, 90, 124) 100%);
 }

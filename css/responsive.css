@@ -41,6 +41,12 @@
 
 }
 
+/* @media (max-width: 799px) {
+  .featured-img img {
+    width: 250px;
+  }
+} */
+
 @media (min-width: 769px) {
   .navbar-toggle {
     display: none;
