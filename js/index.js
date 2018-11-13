@@ -1,7 +1,7 @@
 // Show the scrollTop button when user scrolls 50px down page, else hide
 $(document).scroll(function() {
 	var y = $(this).scrollTop();
-	if (y >= 50) {
+	if (y >= 75) {
 		$('#topcontrol').fadeIn();
 	} else {
 		$('#topcontrol').fadeOut();
