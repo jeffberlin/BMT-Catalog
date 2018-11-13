@@ -79,6 +79,7 @@ ORANGE: #EF9A00
 	opacity: 1;
 	cursor: pointer;
   animation: display 0.5s;
+  display: none;
 }
 
 #topcontrol svg {
