@@ -141,9 +141,10 @@
                   <strong>SolSuite 2018</strong>
                 </p>
                 <div class="featured-img text-left">
-                  <a data-width="100" href="images/solsuite_the_dial_II_screenshot.jpg" data-toggle="lightbox" data-remote="images/solsuite_the_dial_II_screenshot.jpg">
+                  <a data-width="100" href="images/solsuite_the_dial_II_screenshot_min.jpg" data-toggle="lightbox" data-remote="images/solsuite_the_dial_II_screenshot.jpg">
                     <img src="images/solsuite_the_dial_II_screenshot.jpg" alt="" width="170">
                   </a>
+                  <!-- <img src="images/solsuite_the_dial_II_screenshot_min.jpg" alt="" width="170" data-toggle="modal" data-target="#exampleModalCenter"> -->
                   <a data-width="100" href="images/solsuite_pyramid_screenshot_02.jpg" data-toggle="lightbox" data-remote="images/solsuite_pyramid_screenshot_02.jpg">
                     <img src="images/solsuite_pyramid_screenshot_02.jpg" alt="" width="170">
                   </a>
@@ -201,7 +202,6 @@
           </div>
         </div>
       </footer>
-
     </div>
 
     <div id="topcontrol" title="Scroll to Top">
@@ -224,7 +224,9 @@
 		// Lightbox
 		$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 	    event.preventDefault();
-	    $(this).ekkoLightbox();
+	    $(this).ekkoLightbox({
+        alwaysShowClose: true
+      });
 		});
 	</script>
   <script type="text/javascript" src="js/index.js"></script>
