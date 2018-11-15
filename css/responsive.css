@@ -42,9 +42,6 @@
 }
 
 @media (max-width: 768px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
   .dropdown-menu {
     position: static !important;
   }
@@ -69,6 +66,14 @@
   .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu {
+    position: absolute !important;
   }
 
 

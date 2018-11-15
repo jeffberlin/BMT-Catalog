@@ -183,6 +183,8 @@ ORANGE: #EF9A00
   color: #ef9a00;
 }
 
+
+
 /* RESPONSIVE NAVBAR */
 .navbar-toggle-wrapper {
   margin-left: auto;
@@ -242,14 +244,4 @@ ORANGE: #EF9A00
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
   transform-origin: left center;
-}
-
-
-
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-.dropdown-menu {
-  position: absolute !important;
 }
