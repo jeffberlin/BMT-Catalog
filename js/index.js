@@ -16,7 +16,8 @@ $("#topcontrol").click(function() {
 })
 
 // Array for Sewing Products
-var sewingProducts = [
+var sewingProducts = {
+	sewingInfo : [
 	{
 		"company": "Threadsnscissors",
 		"url": "http://www.threadsnscissors.com/"
@@ -60,6 +61,5 @@ var sewingProducts = [
 	{
 		"company": "Ellen Jaye Designs",
 		"url": "http://www.ellenjayedesigns.com/"
-	}
-]
-console.log(sewingProducts);
+	}]
+}

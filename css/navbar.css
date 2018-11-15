@@ -243,3 +243,13 @@ ORANGE: #EF9A00
   -o-transform-origin: left center;
   transform-origin: left center;
 }
+
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  position: absolute !important;
+}

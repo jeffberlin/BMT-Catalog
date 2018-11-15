@@ -41,11 +41,14 @@
 
 }
 
-/* @media (max-width: 799px) {
-  .featured-img img {
-    width: 250px;
+@media (max-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
   }
-} */
+  .dropdown-menu {
+    position: static !important;
+  }
+}
 
 @media (min-width: 769px) {
   .navbar-toggle {
@@ -67,6 +70,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+
 
 }
 
