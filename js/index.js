@@ -15,51 +15,19 @@ $("#topcontrol").click(function() {
 	}, 'slow')
 })
 
-// Array for Sewing Products
-var sewingProducts = {
-	sewingInfo : [
-	{
-		"company": "Threadsnscissors",
-		"url": "http://www.threadsnscissors.com/"
-	},
-	{
-		"company": "Bargain Embroidery Store",
-		"url": "http://www.bargainembstore.com/"
-	},
-	{
-		"company": "Inspiration Mutz Embroidery",
-		"url": "http://www.inspirationmutz.com/"
-	},
-	{
-		"company": "FromTheneedleOfAnne",
-		"url": "http://www.fromtheneedleofanne.com/"
-	},
-	{
-		"company": "Elsa's Designs",
-		"url": "http://www.elsasdesigns.com/"
-	},
-	{
-		"company": "Chantell's Creations",
-		"url": "http://www.chantells-creations.com/"
-	},
-	{
-		"company": "SoftSew",
-		"url": "http://www.softsew.com/"
-	},
-	{
-		"company": "Designs4Africa",
-		"url": "http://www.designs4africa.com/"
-	},
-	{
-		"company": "DesignsbyPetro",
-		"url": "http://www.designsbypetro.com/"
-	},
-	{
-		"company": "Diana's Designs",
-		"url": "http://www.dianasdezigns.com/"
-	},
-	{
-		"company": "Ellen Jaye Designs",
-		"url": "http://www.ellenjayedesigns.com/"
-	}]
+// Products search filter
+function searchFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("productInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
 }
