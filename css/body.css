@@ -131,9 +131,9 @@ ORANGE: #EF9A00
   vertical-align: top;
   padding-right: 25px;
   width: 50%;
-  padding-bottom: 7px;
+  /* padding-bottom: 7px; */
   position: relative;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   text-decoration: none;
   outline: none;
 }
