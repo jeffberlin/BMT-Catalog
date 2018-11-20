@@ -152,8 +152,72 @@ app.controller('catalogCtrl', function($scope, $document) {
 			url: 'http://www.dummysoftware.com/cdstart.html',
 		},
 		{
-			company: 'CDStartDummy!',
-			url: 'http://www.dummysoftware.com/cdstart.html',
+			company: 'Charlie II',
+			url: 'http://www.wieringsoftware.nl/ch2/',
+		},
+		{
+			company: 'Charlie the Duck',
+			url: 'http://www.wieringsoftware.nl/charlie/',
+		},
+		{
+			company: 'CHM4Clarion',
+			url: 'http://www.carlbarnes.com/chm4clarion.htm',
+		},
+		{
+			company: 'Chronilist',
+			url: 'http://www.integracomputing.com/kmain.htm',
+		},
+		{
+			company: 'Church Office Professional',
+			url: 'http://www.dbandsons.com/',
+		},
+		{
+			company: 'Church Secretary 32',
+			url: 'http://www.dbandsons.com/',
+		},
+		{
+			company: 'Church Secretary Pro Edition',
+			url: 'http://www.dbandsons.com/',
+		},
+		{
+			company: 'Clarion Source Search',
+			url: 'http://www.carlbarnes.com/css.htm',
+		},
+		{
+			company: 'Client Tracks',
+			url: 'http://www.integracomputing.com/cmain.htm',
+		},
+		{
+			company: 'Cloud Secure',
+			url: 'http://www.newsoftwares.net/cloud-secure/',
+		},
+		{
+			company: 'Coin Planets',
+			url: 'http://www.addictive247.co.uk/coinplanets.htm',
+		},
+		{
+			company: 'Colony',
+			url: 'http://www.midnightsynergy.com/colony/',
+		},
+		{
+			company: 'Copy Protect',
+			url: 'http://www.newsoftwares.net/copy-protect/',
+		},
+		{
+			company: 'Cosmo Bots',
+			url: 'http://www.retro64.com/cosmobots.asp',
+		},
+		{
+			company: 'Complete Cleanup',
+			url: 'http://www.softdd.com/complete/index.htm',
+		},
+		{
+			company: 'Crystal Cave Gold',
+			url: 'http://www.300ad.com/crystal_cave_gold.php',
+		},
+		{
+			company: 'CW Assistant',
+			url: 'http://www.carlbarnes.com/cwa.htm',
 		},
 	]
 
