@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <script language="javascript"
   src="http://www.bmtmicro.com/resources/cart/cart.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <style media="screen">
     .search-field {
       background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
@@ -95,7 +96,7 @@
 </head>
 <body>
 
-  <div class="wrapper">
+  <div class="wrapper" ng-app="catalog" ng-controller="catalogCtrl">
     <header class="header">
       <nav class="navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-transparent center">
         <div class="container">
@@ -184,18 +185,28 @@
                     <div class="search-bar">
                       <i class="fa fa-search" aria-hidden="true" style="padding-top: 10px; padding-right: 10px; font-size: 16px;"></i>
                       <label class="search-label">
-                        <input class="search-field" id="productInput" type="text" placeholder="Search for products" onkeyup="searchFunction()" title="Search for products">
+                        <input class="search-field" id="productInput" type="text" placeholder="Search for products" title="Search for products" ng-model="test">
                       </label>
                     </div>
                   </div>
 
                 </div>
-                <ul id="myUL" class="productUL group-a">
-                  <p>
+                <div ng-repeat="x in products | filter:test">
+                  <h3>{{x.grouping}}</h3>
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  <!-- <p>
                     <li>
                       <a href="http://www.3dfa.com/" target="_blank">3D Flash Animator</a>
                     </li>
                   </p>
+                </ul>
+                <h3 id=" group-a">A</h3>
+                <ul id="myUL" class="productUL">
                   <p>
                     <li>
                       <a href="http://www.softdd.com/screens/index.htm" target="_blank">A+ Screensaver</a>
@@ -257,6 +268,7 @@
                     </li>
                   </p>
                 </ul>
+                <h3>B</h3>
                 <ul id="myUL" class="productUL group-b">
                   <p>
                     <li>
@@ -302,8 +314,9 @@
                     <li>
                       <a href="http://www.retro64.com/bugatron.asp" target="_blank">Bugatron</a>
                     </li>
-                  </p>
-                </ul>
+                  </p> -->
+                  </ul>
+                </div>
               </div>
             </div>
           </article>
