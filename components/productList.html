@@ -189,132 +189,24 @@
                       </label>
                     </div>
                   </div>
-
                 </div>
-                <div ng-repeat="x in products | filter:test">
-                  <h3>{{x.grouping}}</h3>
+                <h3>0-9</h3>
+                <div ng-repeat="x in productsDigits | filter:test">
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>
                         <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
                       </li>
                     </p>
-                  <!-- <p>
-                    <li>
-                      <a href="http://www.3dfa.com/" target="_blank">3D Flash Animator</a>
-                    </li>
-                  </p>
-                </ul>
-                <h3 id=" group-a">A</h3>
-                <ul id="myUL" class="productUL">
-                  <p>
-                    <li>
-                      <a href="http://www.softdd.com/screens/index.htm" target="_blank">A+ Screensaver</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.twilightgames.com/" target="_blank">Aargon BlackBox</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.twilightgames.com/" target="_blank">Aargon Deluxe Gold</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.elfsoft.com/" target="_blank">Access Elf</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="https://www.bmtmicro.com/BMTCatalog/win/addressnmore.html" target="_blank">Address N More</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.dyvision.co.uk/ale.htm" target="_blank">Advanced Landscape Editor</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="https://www.araxis.com/ketura/" target="_blank">Araxis Ketura</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="https://www.araxis.com/merge/" target="_blank">Araxis Merge</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.300ad.com/arcamania.php" target="_blank">ArcaMania</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.300ad.com/arcamania2.php" target="_blank">ArcaMania 2</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.dyvision.co.uk/autoseam.htm" target="_blank">AutoSeam</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.softdd.com/aviscrn/index.htm" target="_blank">AVI/MPG Screensaver</a>
-                    </li>
-                  </p>
-                </ul>
-                <h3>B</h3>
-                <ul id="myUL" class="productUL group-b">
-                  <p>
-                    <li>
-                      <a href="http://www.stintercorp.com/purchase/br/" target="_blank">Batch Rename .EXE</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.dbandsons.com/" target="_blank">Been There, Done That!</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.retro64.com/ordernew.asp?frombf=true" target="_blank">Best Friends Forever</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.publicspace.net/ABetterFinderRename/index.html" target="_blank">Better Finder Rename</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://self-helpsoftware.com/BibleAid" target="_blank">Bible Aid</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.gearhand.com/" target="_blank">Big Head Zed</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.terabyteunlimited.com/bootit-bare-metal.htm" target="_blank">Bootit Bare Metal</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.arcadelab.com/egypt.html" target="_blank">Bricks of Egypt</a>
-                    </li>
-                  </p>
-                  <p>
-                    <li>
-                      <a href="http://www.retro64.com/bugatron.asp" target="_blank">Bugatron</a>
-                    </li>
-                  </p> -->
+                  </div>
+                  <h3>A</h3>
+                  <div ng-repeat="x in productsA | filter:test">
+                    <ul id="myUL" class="productUL">
+                      <p>
+                        <li>
+                          <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                        </li>
+                      </p>
                   </ul>
                 </div>
               </div>

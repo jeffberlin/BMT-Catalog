@@ -36,22 +36,70 @@ var app = angular.module('catalog', []);
 app.controller('catalogCtrl', function($scope, $document) {
 
 // product array
-	$scope.products = [
+	$scope.productsDigits = [
 		{
 			company: '3D Flash Animator',
 			url: 'http://www.3dfa.com/',
-			grouping: '0-9'
 		},
+
+	]
+
+	$scope.productsA = [
 		{
 			company: 'A+ Screensaver',
 			url: 'http://www.softdd.com/screens/index.htm',
-			grouping: 'A'
 		},
+		{
+			company: 'Aargon BlackBox',
+			url: 'http://www.twilightgames.com/',
+		},
+		{
+			company: 'Aargon Deluxe Gold',
+			url: 'http://www.twilightgames.com/',
+		},
+		{
+			company: 'Access Elf',
+			url: 'http://www.elfsoft.com/',
+		},
+		{
+			company: 'Address N More',
+			url: 'https://www.bmtmicro.com/BMTCatalog/win/addressnmore.html',
+		},
+		{
+			company: 'Advanced Landscape Editor',
+			url: 'http://www.dyvision.co.uk/ale.htm',
+		},
+		{
+			company: 'Araxis Ketura',
+			url: 'https://www.araxis.com/ketura/',
+		},
+		{
+			company: 'Araxis Merge',
+			url: 'https://www.araxis.com/merge/',
+		},
+		{
+			company: 'ArcaMania',
+			url: 'http://www.300ad.com/arcamania.php',
+		},
+		{
+			company: 'ArcaMania 2',
+			url: 'http://www.300ad.com/arcamania2.php',
+		},
+		{
+			company: 'AutoSeam',
+			url: 'http://www.dyvision.co.uk/autoseam.htm',
+		},
+		{
+			company: 'AVI/MPG Screensaver',
+			url: 'http://www.softdd.com/aviscrn/index.htm',
+		},
+	]
+
+	$scope.productsB = [
 		{
 			company: 'Batch Rename .EXE',
 			url: 'http://www.stintercorp.com/purchase/br/',
-			grouping: 'B'
-		}
+		},
 	]
 
 });
