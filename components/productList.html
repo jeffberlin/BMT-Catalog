@@ -190,23 +190,51 @@
                     </div>
                   </div>
                 </div>
-                <h3>0-9</h3>
+                <!-- <h3>0-9</h3> -->
                 <div ng-repeat="x in productsDigits | filter:test">
+                  <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>
                         <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
                       </li>
                     </p>
-                  </div>
-                  <h3>A</h3>
-                  <div ng-repeat="x in productsA | filter:test">
-                    <ul id="myUL" class="productUL">
-                      <p>
-                        <li>
-                          <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
-                        </li>
-                      </p>
+                  </ul>
+                </div>
+                <hr>
+                <!-- <h3>A</h3> -->
+                <div ng-repeat="x in productsA | filter:test">
+                  <h3>{{x.group}}</h3>
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr>
+                <!-- <h3>B</h3> -->
+                <div  ng-repeat="x in productsB | filter:test">
+                  <h3>{{x.group}}</h3>
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr>
+                <!-- <h3>C</h3> -->
+                <div  ng-repeat="x in productsC | filter:test">
+                  <h3>{{x.group}}</h3>
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
                   </ul>
                 </div>
               </div>

@@ -38,6 +38,9 @@ app.controller('catalogCtrl', function($scope, $document) {
 // product array
 	$scope.productsDigits = [
 		{
+			group: '0-9'
+		},
+		{
 			company: '3D Flash Animator',
 			url: 'http://www.3dfa.com/',
 		},
@@ -45,6 +48,9 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsA = [
+		{
+			group: 'A'
+		},
 		{
 			company: 'A+ Screensaver',
 			url: 'http://www.softdd.com/screens/index.htm',
@@ -97,8 +103,57 @@ app.controller('catalogCtrl', function($scope, $document) {
 
 	$scope.productsB = [
 		{
+			group: 'B'
+		},
+		{
 			company: 'Batch Rename .EXE',
 			url: 'http://www.stintercorp.com/purchase/br/',
+		},
+		{
+			company: 'Been There, Done That!',
+			url: 'http://www.dbandsons.com/',
+		},
+		{
+			company: 'Best Friends Forever',
+			url: 'http://www.retro64.com/ordernew.asp?frombf=true',
+		},
+		{
+			company: 'Better Finder Rename',
+			url: 'http://www.publicspace.net/ABetterFinderRename/index.html',
+		},
+		{
+			company: 'Bible Aid',
+			url: 'http://self-helpsoftware.com/BibleAid',
+		},
+		{
+			company: 'Big Head Zed',
+			url: 'http://www.gearhand.com/',
+		},
+		{
+			company: 'Bootit Bare Metal',
+			url: 'http://www.terabyteunlimited.com/bootit-bare-metal.htm',
+		},
+		{
+			company: 'Bricks of Egypt',
+			url: 'http://www.arcadelab.com/egypt.html',
+		},
+		{
+			company: 'Bugatron',
+			url: 'http://www.retro64.com/bugatron.asp',
+		},
+	]
+
+	$scope.productsC = [
+		{
+			group: 'C'
+		},
+		{
+			company: 'CDStartDummy!',
+			url: 'http://www.dummysoftware.com/cdstart.html',
+		},
+		{
+			company: 'CDStartDummy!',
+			url: 'http://www.dummysoftware.com/cdstart.html',
 		},
 	]
 
