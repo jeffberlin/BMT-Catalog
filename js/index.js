@@ -221,4 +221,58 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 	]
 
+	$scope.productsD = [
+		{
+			group: 'D'
+		},
+		{
+			company: 'DataRevelation',
+			url: 'http://www.datarevelation.com/'
+		},
+		{
+			company: 'DBS Help Desk',
+			url: 'http://www.dbandsons.com/'
+		},
+		{
+			company: 'Demon Star',
+			url: 'http://www.mking.com/demonstar_game.html'
+		},
+		{
+			company: 'Demon Star - Secret Missions 1',
+			url: 'http://www.mking.com/demonstarsm1_game.html'
+		},
+		{
+			company: 'Demon Star - Secret Missions 2',
+			url: 'http://www.mking.com/demonstarsm2_game.html'
+		},
+		{
+			company: 'Digi Pool',
+			url: 'http://www.arcadelab.com/digipool.html'
+		},
+		{
+			company: 'Documents Illustrative',
+			url: 'http://www.documentsillustrative.com/'
+		},
+		{
+			company: 'The Dragon',
+			url: 'http://www.webaby-corp.com/store/homezenfire.htm'
+		},
+		{
+			company: 'DRECKBAK',
+			url: 'http://weismer.virtualave.net/DreckBak.html'
+		},
+		{
+			company: 'Drippy',
+			url: 'http://www.screamingduck.com/Drippy.php'
+		},
+		{
+			company: 'Dupli Find',
+			url: 'http://www.rlvision.com/dupli/about.php'
+		},
+		{
+			company: 'DvD PixPlay',
+			url: 'http://www.xequte.com/pixplay/index.html'
+		},
+	]
+
 });

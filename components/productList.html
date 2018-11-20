@@ -215,7 +215,7 @@
                 </div>
                 <hr>
                 <!-- <h3>B</h3> -->
-                <div  ng-repeat="x in productsB | filter:test">
+                <div ng-repeat="x in productsB | filter:test">
                   <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
@@ -227,7 +227,18 @@
                 </div>
                 <hr>
                 <!-- <h3>C</h3> -->
-                <div  ng-repeat="x in productsC | filter:test">
+                <div ng-repeat="x in productsC | filter:test">
+                  <h3>{{x.group}}</h3>
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr>
+                <div ng-repeat="x in productsD | filter:test">
                   <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
