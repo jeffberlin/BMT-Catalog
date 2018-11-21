@@ -1,3 +1,5 @@
+<!-- To edit/add products, go to ../js/productList.js -->
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -291,6 +293,50 @@
                 <hr ng-hide="test">
                 <h3 ng-hide="test">I</h3>
                 <div ng-repeat="x in productsI | filter:test | orderBy:'company'">
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr ng-hide="test">
+                <h3 ng-hide="test">J</h3>
+                <div ng-repeat="x in productsJ | filter:test | orderBy:'company'">
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr ng-hide="test">
+                <h3 ng-hide="test">K</h3>
+                <div ng-repeat="x in productsK | filter:test | orderBy:'company'">
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr ng-hide="test">
+                <h3 ng-hide="test">L</h3>
+                <div ng-repeat="x in productsL | filter:test | orderBy:'company'">
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
+                <hr ng-hide="test">
+                <h3 ng-hide="test">M</h3>
+                <div ng-repeat="x in productsM | filter:test | orderBy:'company'">
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>

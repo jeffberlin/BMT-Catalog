@@ -412,4 +412,109 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
   ]
 
+  $scope.productsJ = [
+    {
+      company: 'Jack of All Trades',
+      url: 'http://www.dingogames.com/jack/'
+    },
+    {
+      company: 'Jets\'n\'Guns',
+      url: 'https://www.bmtmicro.com/BMTCatalog/win/jetsnguns.html'
+    },
+    {
+      company: 'Jump To Window',
+      url: 'http://www.techhit.com/JumpToWindow/'
+    },
+    {
+      company: 'Journal 7',
+      url: 'http://www.davidrm.com/'
+    },
+  ]
+
+  $scope.productsL = [
+    {
+      company: 'Laser Dolphin',
+      url: 'http://www.dingogames.com/dolphin/'
+    },
+    {
+      company: 'Lesson Planner for Windows 2',
+      url: 'http://www.dbandsons.com/'
+    },
+    {
+      company: 'Lesson Planner Plus',
+      url: 'http://www.dbandsons.com/'
+    },
+    {
+      company: 'Luxor',
+      url: 'https://www.arcadetown.com/luxor/showgame.asp'
+    },
+  ]
+
+  $scope.productsM = [
+    {
+      company: 'Magellan Explorer',
+      url: 'http://www.enriva.com/'
+    },
+    {
+      company: 'Mahjong Suite',
+      url: 'http://www.mahjongsuite.com/'
+    },
+    {
+      company: 'MailBell',
+      url: 'https://www.emtec.com/mailbell/index.html'
+    },
+    {
+      company: 'Mailist King Pro',
+      url: 'http://www.xequte.com/maillistking/index.html'
+    },
+    {
+      company: 'Matrix',
+      url: 'http://www.bmtmicro.com/chorus/matrix.html'
+    },
+    {
+      company: 'Maul Publisher',
+      url: 'http://www.manglais.com/index.html'
+    },
+    {
+      company: 'MegaView',
+      url: 'http://www.xequte.com/megaview/index.html'
+    },
+    {
+      company: 'MessageSave',
+      url: 'http://www.techhit.com/messagesave/'
+    },
+    {
+      company: 'Midnight Synergy Games Collection CD',
+      url: 'http://www.midnightsynergy.com/collectioninfo/'
+    },
+    {
+      company: 'Moneydance',
+      url: 'http://moneydance.com/'
+    },
+    {
+      company: 'Money Quiz-Counter',
+      url: 'https://www.bmtmicro.com/BMTCatalog/win/moneyquizcounter.html'
+    },
+    {
+      company: 'Mr Cool Ball',
+      url: 'https://www.warlockstudio.com/mcb.php'
+    },
+    {
+      company: 'MX Simulator',
+      url: 'http://mxsimulator.com/'
+    },
+    {
+      company: 'My Problem Solved!',
+      url: 'http://www.dbandsons.com/'
+    },
+    {
+      company: 'Mystica',
+      url: ''
+    },
+    {
+      company: 'Mystic Mist',
+      url: 'http://www.webaby-corp.com/store/mysticmist.htm'
+    },
+  ]
+
 });
