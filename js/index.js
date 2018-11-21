@@ -15,27 +15,10 @@ $("#topcontrol").click(function() {
 	}, 'slow')
 })
 
-// Products search filter
-// function searchFunction() {
-//     var input, filter, ul, li, a, i;
-//     input = document.getElementById("productInput");
-//     filter = input.value.toUpperCase();
-//     ul = document.getElementById("myUL");
-//     li = ul.getElementsByTagName("li");
-//     for (i = 0; i < li.length; i++) {
-//         a = li[i].getElementsByTagName("a")[0];
-//         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-//             li[i].style.display = "";
-//         } else {
-//             li[i].style.display = "none";
-//         }
-//     }
-// }
-
 var app = angular.module('catalog', []);
 app.controller('catalogCtrl', function($scope, $document) {
 
-// product array
+// product arrays
 	$scope.productsDigits = [
 		{
 			company: '3D Flash Animator',
@@ -256,6 +239,37 @@ app.controller('catalogCtrl', function($scope, $document) {
 		{
 			company: 'DvD PixPlay',
 			url: 'http://www.xequte.com/pixplay/index.html'
+		},
+	]
+
+	$scope.productsE = [
+		{
+			company: 'Easyscreen',
+			url: 'http://www.softdd.com/escreen/index.htm'
+		},
+		{
+			company: 'eComStation',
+			url: 'http://www.ecomstation.com/'
+		},
+		{
+			company: 'Electronic Teller',
+			url: 'http://home.cybrnet.net/~phcaron/index.html'
+		},
+		{
+			company: 'Empire Deluxe Enhanced Edition',
+			url: 'http://www.killerbeesoftware.com/kbsgames/edee/'
+		},
+		{
+			company: 'Empire Deluxe Internet Edition',
+			url: 'http://www.killerbeesoftware.com/kbsgames/ednew/'
+		},
+		{
+			company: 'E\'s Friends',
+			url: 'https://www.bmtmicro.com/BMTCatalog/win/esfriends.html'
+		},
+		{
+			company: 'EZDetach',
+			url: 'http://www.techhit.com/ezdetach/outlook_attachments.html'
 		},
 	]
 

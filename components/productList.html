@@ -244,6 +244,17 @@
                     </p>
                   </ul>
                 </div>
+                <hr ng-hide="test">
+                <h3 ng-hide="test">E</h3>
+                <div ng-repeat="x in productsE | filter:test">
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
               </div>
             </div>
           </article>
