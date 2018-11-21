@@ -886,4 +886,134 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
   ]
 
+  $scope.productsU = [
+    {
+      company: 'Ultimate Boxing Manager',
+      url: 'http://www.winterwolves.com/universalboxingmanager.htm'
+    },
+    {
+      company: 'USB Secure',
+      url: 'http://www.newsoftwares.net/usb-secure/'
+    },
+    {
+      company: 'USB Block',
+      url: 'http://www.newsoftwares.net/usb-block/'
+    },
+  ]
+
+  $scope.productsV = [
+    {
+      company: 'V - The File Viewer',
+      url: 'http://www.fileviewer.com/index.html'
+    },
+    {
+      company: 'VeggieBreak',
+      url: 'http://www.uppergroove.com/veggiebreak.htm'
+    },
+    {
+      company: 'VeggieBreak Kids',
+      url: 'http://www.uppergroove.com/veggiebreak_kids.htm'
+    },
+    {
+      company: 'VOICE Memberships',
+      url: 'https://www.bmtmicro.com/BMTCatalog/os2/voicememberships.html'
+    },
+  ]
+
+  $scope.productsW = [
+    {
+      company: 'Watch Directory',
+      url: 'http://www.watchdirectory.net/'
+    },
+    {
+      company: 'Water Dragonfly',
+      url: 'http://www.webaby-corp.com/store/waterdragonfly.htm'
+    },
+    {
+      company: 'Where\'s The Bus?',
+      url: 'http://www.dbandsons.com/'
+    },
+    {
+      company: 'Wiggilez Blast',
+      url: 'http://www.uppergroove.com/wiggilez.htm'
+    },
+    {
+      company: 'Wild Beast Watching',
+      url: 'http://www.webaby-corp.com/store/wildbeastwatching.htm'
+    },
+    {
+      company: 'Winstep Nexus',
+      url: 'http://www.winstep.net/nexus.asp'
+    },
+    {
+      company: 'Winstep Xtreme',
+      url: 'http://www.winstep.net/xtreme.asp'
+    },
+    {
+      company: 'Winter Castle',
+      url: 'http://www.webaby-corp.com/store/wintercastle.htm'
+    },
+    {
+      company: 'Wonderland',
+      url: 'http://www.midnightsynergy.com/wonderland/'
+    },
+    {
+      company: 'Wonderland Adventures',
+      url: 'http://www.midnightsynergy.com/adventures/'
+    },
+    {
+      company: 'Wonderland Adventures: Mysteries of Fire Island',
+      url: 'http://www.midnightsynergy.com/adventures2/'
+    },
+    {
+      company: 'Wonderland Secret Worlds',
+      url: 'http://www.midnightsynergy.com/secretworlds/'
+    },
+    {
+      company: 'Workplace Security for OS/2 Warp',
+      url: 'https://www.bmtmicro.com/BMTCatalog/os2/wpsecurity.html'
+    },
+  ]
+
+  $scope.productsX = [
+    {
+      company: 'XLQ',
+      url: 'http://www.qmatix.com/index.htm'
+    },
+  ]
+
+  $scope.productsY = [
+    {
+      company: '',
+      url: ''
+    },
+  ]
+
+  $scope.productsZ = [
+    {
+      company: 'Zen Puzzle Garden',
+      url: 'http://www.arcadetown.com/zenpuzzlegarden/game.asp'
+    },
+    {
+      company: 'ZipControl',
+      url: 'http://www.rpfsoftware.com/'
+    },
+    {
+      company: 'ZModeler2',
+      url: 'http://www.zmodeler2.com/'
+    },
+    {
+      company: 'ZOC',
+      url: 'https://www.emtec.com/zoc/index.html'
+    },
+    {
+      company: 'ZTreeBold',
+      url: 'http://www.ztree.com/html/ztreebold.htm'
+    },
+    {
+      company: 'ZTreeWin',
+      url: 'http://www.ztree.com/html/ztreewin.htm'
+    },
+  ]
+
 });
