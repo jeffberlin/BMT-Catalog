@@ -72,7 +72,7 @@ u {
   text-decoration-color: #EF9A00;
 }
 
-button:focus, input:focus {
+button:focus, input:focus, select:focus {
   outline: none;
   border: none;
 }
