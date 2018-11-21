@@ -1,4 +1,4 @@
-var app = angular.module('catalog', []);
+var app = angular.module('productCatalog', []);
 app.controller('catalogCtrl', function($scope, $document) {
 
 // product arrays

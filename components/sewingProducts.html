@@ -1,3 +1,5 @@
+<!-- To edit/add products, go to ../js/sewingList.js -->
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -24,6 +26,17 @@
   <link rel="stylesheet" href="../css/responsive.css" type="text/css">
   <script language="javascript"
   src="http://www.bmtmicro.com/resources/cart/cart.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <style media="screen">
+    .productUL {
+      list-style-type: none !important;
+      padding-left: 0;
+    }
+
+    .productUL li a {
+      font-size: 18px;
+    }
+  </style>
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -44,7 +57,7 @@
 </head>
 <body>
 
-  <div class="wrapper">
+  <div class="wrapper" ng-app="sewingCatalog" ng-controller="sewingCtrl">
     <header class="header">
       <nav class="navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-transparent center">
         <div class="container">
@@ -131,33 +144,15 @@
                     <h1 class="page-title title-in-content">Sewing Products</h1>
                   </div>
                 </div>
-                <p>
-                  <a href="http://www.threadsnscissors.com/" target="_blank">Threadsnscissors</a>
-                </p>
-                <p>
-                  <a href="http://www.bargainembstore.com/" target="_blank">Bargain Embroidery Store</a>
-                </p>
-                <p>
-                  <a href="http://www.inspirationmutz.com/" target="_blank">Inspiration Mutz Embroidery</a>
-                </p>
-                <p>
-                  <a href="http://www.fromtheneedleofanne.com/" target="_blank">FromTheneedleOfAnne</a>
-                </p>
-                <p>
-                  <a href="http://www.elsasdesigns.com/" target="_blank">Elsa's Designs</a>
-                </p>
-                <p>
-                  <a href="http://www.chantells-creations.com/" target="_blank">Chantell's Creations</a>
-                </p>
-                <p>
-                  <a href="http://www.softsew.com/" target="_blank">SoftSew</a>
-                </p>
-                <p>
-                  <a href="http://www.designs4africa.com/" target="_blank">Designs4Africa</a>
-                </p>
-                <p>
-                  <a href="http://www.designsbypetro.com/" target="_blank">DesignsbyPetro</a>
-                </p>
+                <div ng-repeat="x in productsSewing | orderBy:'company'">
+                  <ul id="myUL" class="productUL">
+                    <p>
+                      <li>
+                        <a ng-href="{{x.url}}" target="_blank">{{x.company}}</a>
+                      </li>
+                    </p>
+                  </ul>
+                </div>
               </div>
             </div>
           </article>
@@ -191,5 +186,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script type="text/javascript" src="../js/index.js"></script>
+  <script type="text/javascript" src="../js/sewingList.js"></script>
 </body>
 </html>
