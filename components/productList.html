@@ -190,9 +190,8 @@
                     </div>
                   </div>
                 </div>
-                <!-- <h3>0-9</h3> -->
+                <h3 ng-hide="test">0-9</h3>
                 <div ng-repeat="x in productsDigits | filter:test">
-                  <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>
@@ -201,9 +200,9 @@
                     </p>
                   </ul>
                 </div>
-                <!-- <h3>A</h3> -->
+                <hr ng-hide="test">
+                <h3 ng-hide="test">A</h3>
                 <div ng-repeat="x in productsA | filter:test">
-                  <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>
@@ -212,9 +211,9 @@
                     </p>
                   </ul>
                 </div>
-                <!-- <h3>B</h3> -->
+                <hr ng-hide="test">
+                <h3 ng-hide="test">B</h3>
                 <div ng-repeat="x in productsB | filter:test">
-                  <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>
@@ -223,9 +222,9 @@
                     </p>
                   </ul>
                 </div>
-                <!-- <h3>C</h3> -->
+                <hr ng-hide="test">
+                <h3 ng-hide="test">C</h3>
                 <div ng-repeat="x in productsC | filter:test">
-                  <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>
@@ -234,8 +233,9 @@
                     </p>
                   </ul>
                 </div>
+                <hr ng-hide="test">
+                <h3 ng-hide="test">D</h3>
                 <div ng-repeat="x in productsD | filter:test">
-                  <h3>{{x.group}}</h3>
                   <ul id="myUL" class="productUL">
                     <p>
                       <li>

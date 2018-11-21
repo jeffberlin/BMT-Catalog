@@ -38,19 +38,12 @@ app.controller('catalogCtrl', function($scope, $document) {
 // product array
 	$scope.productsDigits = [
 		{
-			group: '0-9'
-		},
-		{
 			company: '3D Flash Animator',
 			url: 'http://www.3dfa.com/',
 		},
-
 	]
 
 	$scope.productsA = [
-		{
-			group: 'A'
-		},
 		{
 			company: 'A+ Screensaver',
 			url: 'http://www.softdd.com/screens/index.htm',
@@ -103,9 +96,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 
 	$scope.productsB = [
 		{
-			group: 'B'
-		},
-		{
 			company: 'Batch Rename .EXE',
 			url: 'http://www.stintercorp.com/purchase/br/',
 		},
@@ -144,9 +134,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsC = [
-		{
-			group: 'C'
-		},
 		{
 			company: 'CDStartDummy!',
 			url: 'http://www.dummysoftware.com/cdstart.html',
@@ -222,9 +209,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsD = [
-		{
-			group: 'D'
-		},
 		{
 			company: 'DataRevelation',
 			url: 'http://www.datarevelation.com/'
