@@ -15,12 +15,11 @@
 //   document.getElementById("alphaUL").style.display = "inline-flex";
 // }
 
-var touchDevice = /iPhone|iPad|iPod|Android|Opera Mini/i.test(navigator.userAgent);
-if (touchDevice) {
-	document.getElementById("selector").style.display = "block";
-} else {
-	document.getElementById("alphaUL").style.display = "inline-flex";
-}
+
+
+
+
+
 // Show the scrollTop button when user scrolls 50px down page, else hide
 $(document).scroll(function() {
 	var y = $(this).scrollTop();
