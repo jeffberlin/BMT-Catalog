@@ -1,11 +1,26 @@
-if (WURFL.is_mobile === true && WURFL.form_factor === "Smartphone") {
-	document.getElementById("alphaUL").style.display = "none";
+// OS detection
+// if ( /Android|Opera Mini/i.test(navigator.userAgent) ) {
+//   document.getElementById("selector").style.display = "block";
+//   document.getElementById("alphaUL").style.display = "none";
+// } else {
+//   document.getElementById("selector").style.display = "none";
+//   document.getElementById("alphaUL").style.display = "inline-flex";
+// }
+//
+// if ( /iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
+//   document.getElementById("selector").style.display = "block";
+//   document.getElementById("alphaUL").style.display = "none";
+// } else {
+//   document.getElementById("selector").style.display = "none";
+//   document.getElementById("alphaUL").style.display = "inline-flex";
+// }
+
+var touchDevice = /iPhone|iPad|iPod|Android|Opera Mini/i.test(navigator.userAgent);
+if (touchDevice) {
 	document.getElementById("selector").style.display = "block";
 } else {
 	document.getElementById("alphaUL").style.display = "inline-flex";
-	document.getElementById("selector").style.display = "none";
 }
-
 // Show the scrollTop button when user scrolls 50px down page, else hide
 $(document).scroll(function() {
 	var y = $(this).scrollTop();
