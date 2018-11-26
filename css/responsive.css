@@ -3,6 +3,14 @@
     width: 1170px;
   }
 
+  /* #selector {
+    display: none;
+  }
+
+  #alphaUL {
+    display: inline-flex !important;
+  } */
+
 }
 
 @media (max-width: 1199px) {
@@ -75,7 +83,6 @@
   .dropdown-menu {
     position: absolute !important;
   }
-
 
 }
 
