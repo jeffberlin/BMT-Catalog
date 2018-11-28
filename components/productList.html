@@ -104,7 +104,6 @@
     #alphaUL {
       list-style: none;
       padding-left: 0;
-      display: inline-flex;
     }
     #alphaUL li {
       text-transform: uppercase;
@@ -231,7 +230,7 @@
                         <input class="search-field" id="productInput" type="text" placeholder="Search for products" title="Search for products" ng-model="test">
                       </label>
                     </div>
-                    <div id="selector">
+                    <div id="selector" class="d-lg-none">
                       <select id="picker">
                         <option value="" selected>Select:</option>
                         <option value="A">A</option>
@@ -262,7 +261,7 @@
                         <option value="Z">Z</option>
                       </select>
                     </div>
-                    <ul id="alphaUL">
+                    <ul id="alphaUL" class="d-sm-none d-lg-inline-flex">
                       <li style="margin-right: 5px;">
                         a
                       </li>
