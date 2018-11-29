@@ -12,9 +12,9 @@ ORANGE: #EF9A00
 }
 
 .nav {
+  display: block !important;
   padding-left: 0;
   list-style: none;
-  display: block !important;
 }
 
 .navbar.navbar-transparent {
@@ -49,12 +49,12 @@ ORANGE: #EF9A00
 }
 
 .navbar > .container {
+  display: flex;
   padding-top: 25px !important;
   transition: padding 0.1s ease;
   padding: 10px 15px;
   vertical-align: middle;
   align-items: center;
-  display: flex;
 }
 
 .container {
@@ -137,10 +137,6 @@ ORANGE: #EF9A00
   line-height: 20px;
 }
 
-/* .top-menu.active>a {
-  color: #ef9a00 !important;
-} */
-
 .navbar .navbar-nav > li:not(.btn) > a::before {
   position: absolute;
   z-index: -1;
@@ -183,7 +179,9 @@ ORANGE: #EF9A00
   color: #ef9a00;
 }
 
-
+#menu-item:hover>.dropdown-menu {
+  display: block !important;
+}
 
 /* RESPONSIVE NAVBAR */
 .navbar-toggle-wrapper {

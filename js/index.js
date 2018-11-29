@@ -8,6 +8,7 @@ $(document).scroll(function() {
 	}
 });
 
+
 // JS for scrolling back to top of the page
 $("#topcontrol").click(function() {
 	$('html, body').animate({
