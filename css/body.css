@@ -60,7 +60,7 @@ ORANGE: #EF9A00
   margin-left: 0 !important;
 }
 
-.social-icons img {
+.social-icons a img {
   max-width: 28px;
   height: auto;
 }
