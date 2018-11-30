@@ -179,12 +179,12 @@ ORANGE: #EF9A00
   color: #ef9a00;
 }
 
-.dropdown-toggle[aria-expanded="true"]:after {
-  transform: rotate(180deg);
-}
-
 .open>.dropdown-menu{
   margin-top: initial;
+}
+
+.open:hover .dropdown-toggle::after {
+  transform: rotate(180deg);
 }
 
 /*for the animation*/
