@@ -186,6 +186,9 @@ ORANGE: #EF9A00
 .open:hover .dropdown-toggle::after {
   transform: rotate(180deg);
 }
+.dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(180deg);
+}
 
 /*for the animation*/
 .dropdown-toggle:after {
