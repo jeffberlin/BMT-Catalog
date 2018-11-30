@@ -179,9 +179,18 @@ ORANGE: #EF9A00
   color: #ef9a00;
 }
 
-/* #menu-item:hover>.dropdown-menu {
-  display: block !important;
-} */
+.dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(180deg);
+}
+
+.open>.dropdown-menu{
+  margin-top: initial;
+}
+
+/*for the animation*/
+.dropdown-toggle:after {
+  transition: 0.5s;
+}
 
 /* RESPONSIVE NAVBAR */
 .navbar-toggle-wrapper {

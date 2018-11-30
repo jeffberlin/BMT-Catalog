@@ -8,6 +8,10 @@ $(document).scroll(function() {
 	}
 });
 
+const menu = $("li.dropdown");
+menu.on("mouseenter mouseleave", () => {
+  menu.toggleClass("open");
+});
 
 // JS for scrolling back to top of the page
 $("#topcontrol").click(function() {
