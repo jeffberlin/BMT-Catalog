@@ -183,11 +183,15 @@ ORANGE: #EF9A00
   margin-top: initial;
 }
 
-.open:hover .dropdown-toggle::after {
-  transform: rotate(180deg);
-}
-.dropdown-toggle[aria-expanded="true"]:after {
-  transform: rotate(180deg);
+@media (min-width: 768px) {
+
+  .open:hover .dropdown-toggle::after {
+    transform: rotate(180deg);
+  }
+  .dropdown-toggle[aria-expanded="true"]:after {
+    transform: rotate(180deg);
+  }
+
 }
 
 /*for the animation*/
