@@ -182,7 +182,7 @@ ORANGE: #EF9A00
 .open>.dropdown-menu{
   margin-top: initial;
 }
-
+/* Handles dropdown caret rotation on hover, not on mobile menu */
 @media (min-width: 768px) {
 
   .open:hover .dropdown-toggle::after {
