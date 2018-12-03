@@ -100,6 +100,10 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsC = [
+    {
+      company: 'Camp Buddy',
+      url: 'https://www.blitsgames.com/'
+    },
 		{
 			company: 'CDStartDummy!',
 			url: 'http://www.dummysoftware.com/cdstart.html',
