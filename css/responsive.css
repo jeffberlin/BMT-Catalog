@@ -53,6 +53,11 @@
   .dropdown-menu {
     position: static !important;
   }
+
+  .page-content-wrap p {
+    font-size: 16px;
+  }
+  
 }
 
 @media (min-width: 769px) {
