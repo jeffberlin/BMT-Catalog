@@ -25,6 +25,51 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <script language="javascript"
   src="http://www.bmtmicro.com/resources/cart/cart.js"></script>
+  <style media="screen" type="text/css">
+    #tier-option {
+      border: 1px solid #d2d2d2;
+      border-radius: 6px 6px 0 0;
+      padding: 0px !important;
+    }
+    #tier-option
+{
+  position: relative;
+}
+#tier-option:before, #tier-option:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+#tier-option:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+    .tier-header {
+      background-color: #eee;
+      padding: 5px;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
@@ -116,6 +161,26 @@
                 <div class="row">
                   <div class="col-md-12">
                     <h1 class="page-title title-in-content">Signup Plans</h1>
+                  </div>
+                </div>
+                <div class="row" style="padding-left: 15px;">
+                  <div id="tier-option" class="col-md-3" style="margin-right: 15px;">
+                    <div class="tier-header text-center">
+                      <strong>Basic Tier</strong>
+                    </div>
+                    <div class="">
+                      hello
+                    </div>
+                  </div>
+                  <div class="col-md-3 tier-option" style="margin-right: 15px;">
+                    <div class="text-center">
+                      <strong>Advanced Tier</strong>
+                    </div>
+                  </div>
+                  <div class="col-md-3 tier-option">
+                    <div class="text-center">
+                      <strong>Customized Add-On's</strong>
+                    </div>
                   </div>
                 </div>
               </div>
