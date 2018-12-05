@@ -27,47 +27,43 @@
   src="http://www.bmtmicro.com/resources/cart/cart.js"></script>
   <style media="screen" type="text/css">
     #tier-option {
-      border: 1px solid #d2d2d2;
+      border: 1px solid rgba(0,0,0,.1);
       border-radius: 6px 6px 0 0;
       padding: 0px !important;
+      /* -webkit-box-shadow: 0 10px 6px -6px #777;
+      -moz-box-shadow: 0 10px 6px -6px #777;
+      box-shadow: 0 10px 6px -6px #777; */
+      -webkit-box-shadow: 0px 9px 62px -25px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 9px 35px -25px rgba(0,0,0,1);
+      box-shadow: 0px 9px 50px -19px rgba(0,0,0,1);
     }
-    #tier-option
-{
-  position: relative;
-}
-#tier-option:before, #tier-option:after
-{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-}
-#tier-option:after
-{
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
-}
+
     .tier-header {
-      background-color: #eee;
-      padding: 5px;
+      background-color: #dcdcdc;
+    }
+
+    .tier-header h5 {
+      padding: 20px;
+      margin-bottom: 0px;
+      font-size: 20px;
+      color: #000000;
+      letter-spacing: .7px;
+    }
+
+    .tier-rate {
+      background-color: #e8e8e8;
+    }
+
+    .tier-rate p {
+      margin-bottom: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: .7px;
+    }
+
+    .tier-info p {
+      margin-top: 15px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -163,26 +159,63 @@
                     <h1 class="page-title title-in-content">Signup Plans</h1>
                   </div>
                 </div>
-                <div class="row" style="padding-left: 15px;">
-                  <div id="tier-option" class="col-md-3" style="margin-right: 15px;">
+                <!-- <div class="row" style="padding-left: 15px;"> -->
+                  <div id="tier-option" class="col-md-8" style="margin-bottom: 4.5rem;">
                     <div class="tier-header text-center">
-                      <strong>Basic Tier</strong>
+                      <h5><strong>Basic Tier</strong></h5>
                     </div>
-                    <div class="">
-                      hello
+                    <div class="tier-rate text-center" style="padding: 10px;">
+                      <p>8.9% flat</p>
+                      <p>or</p>
+                      <p style="margin-bottom: 0px;">5.9% + $1</p>
+                    </div>
+                    <div class="tier-info text-center">
+                      <p>All orders online (no phone support, demo hosting, or mail/fax orders)</p>
+                      <hr>
+                      <p>No virtual products</p>
+                      <hr>
+                      <p>No purchase orders</p>
+                      <hr>
+                      <p>Downloadable or generated key fulfillment (by BMT only)</p>
+                      <hr>
+                      <p>Receive your payment in USD</p>
+                      <hr>
+                      <p>Accept payments in more than 30 currencies</p>
+                      <hr>
+                      <p>Shopping cart in multiple languages</p>
+                      <hr>
+                      <p>paysafecard – 20% per transaction</p>
+                      <hr>
+                      <p>* Minimum Fee - $1.25</p>
                     </div>
                   </div>
-                  <div class="col-md-3 tier-option" style="margin-right: 15px;">
-                    <div class="text-center">
-                      <strong>Advanced Tier</strong>
+                  <div id="tier-option" class="col-md-8" style="margin-bottom: 4.5rem;">
+                    <div class="tier-header text-center">
+                      <h5><strong>Advanced Tier</strong></h5>
+                    </div>
+                    <div class="tier-rate text-center" style="padding: 10px;">
+                      <p>9.5%</p>
+                      <p>or</p>
+                      <p style="margin-bottom: 0px;">4.9% + $2</p>
+                    </div>
+                    <div class="tier-info text-center">
+                      <p>hello</p>
                     </div>
                   </div>
-                  <div class="col-md-3 tier-option">
-                    <div class="text-center">
-                      <strong>Customized Add-On's</strong>
+                  <div id="tier-option" class="col-md-8" style="margin-bottom: 15px;">
+                    <div class="tier-header text-center">
+                      <h5><strong>Customized Add-On's</strong></h5>
+                    </div>
+                    <div class="tier-rate text-center" style="padding: 10px;">
+                      <p>Contact BMT</p>
+                      <p>for</p>
+                      <p style="margin-bottom: 0px;">Add-On Pricing</p>
+                    </div>
+                    <div class="tier-info text-center">
+                      <p>hello</p>
                     </div>
                   </div>
-                </div>
+                <!-- </div> -->
               </div>
             </div>
           </article>
