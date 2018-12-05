@@ -19,3 +19,18 @@ $("#topcontrol").click(function() {
 		scrollTop: $("#primary").offset().top
 	}, 'slow')
 })
+
+// _e('compare').addEventListener('click', function() {
+//     _e('tier-content').innerHTML = 'Table here';
+// 		_e('compare').innerHTML = 'Back';
+// }, false);
+//
+// function _e(id) {
+//    return document.getElementById(id);
+// }
+
+$("#compare").click(function() {
+  $("#tier-content").toggle( "down" );
+	$("#table").toggle("down");
+	$("#compare").change("#back");
+});
