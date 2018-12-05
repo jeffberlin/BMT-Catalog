@@ -45,7 +45,7 @@ button {
   margin: 10px 1px;
   white-space: normal;
   letter-spacing: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   will-change: box-shadow,transform;
 }
 
@@ -73,8 +73,8 @@ u {
 }
 
 button:focus, input:focus, select:focus {
-  outline: none;
-  border: none;
+  outline: none !important;
+  border: none !important;
 }
 
 hr {
