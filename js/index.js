@@ -20,17 +20,32 @@ $("#topcontrol").click(function() {
 	}, 'slow')
 })
 
-// _e('compare').addEventListener('click', function() {
-//     _e('tier-content').innerHTML = 'Table here';
-// 		_e('compare').innerHTML = 'Back';
-// }, false);
-//
-// function _e(id) {
-//    return document.getElementById(id);
-// }
-
 $("#compare").click(function() {
-  $("#tier-content").toggle( "down" );
-	$("#table").toggle("down");
-	$("#compare").change("#back");
+	$("#tier-content").toggle();
+	$("#table").toggle();
+	$("#scroll-text").toggle();
+	$("#back").toggle();
+	$("#compare").toggle();
 });
+
+$("#back").click(function() {
+	$("#tier-content").toggle();
+	$("#table").toggle();
+	$("#scroll-text").toggle();
+	$("#back").toggle();
+	$("#compare").toggle();
+});
+
+// $("#compare").click(function() {
+// 	$("#tier-content").html($("#table").html());
+// 	$("#scroll-text").hide();
+// 	$("#compare").hide();
+// 	$("#back").show();
+// });
+//
+// $("#back").click(function() {
+// 	$("#table").html($("#tier-content").html());
+// 	$("#scroll-text").show();
+// 	$("#back").hide();
+// 	$("#compare").show();
+// });
