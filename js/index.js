@@ -20,6 +20,7 @@ $("#topcontrol").click(function() {
 	}, 'slow')
 })
 
+// Interaction with signUp.html tier/tables buttons
 $("#compare").click(function() {
 	$("#tier-content").toggle();
 	$("#table").toggle();
@@ -35,17 +36,3 @@ $("#back").click(function() {
 	$("#back").toggle();
 	$("#compare").toggle();
 });
-
-// $("#compare").click(function() {
-// 	$("#tier-content").html($("#table").html());
-// 	$("#scroll-text").hide();
-// 	$("#compare").hide();
-// 	$("#back").show();
-// });
-//
-// $("#back").click(function() {
-// 	$("#table").html($("#tier-content").html());
-// 	$("#scroll-text").show();
-// 	$("#back").hide();
-// 	$("#compare").show();
-// });
