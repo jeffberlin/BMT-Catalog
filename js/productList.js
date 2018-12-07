@@ -28,7 +28,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'Address N More',
-			url: 'https://www.bmtmicro.com/BMTCatalog/win/addressnmore.html',
+			url: '../developers/addressNmore.html',
 		},
 		{
 			company: 'Advanced Landscape Editor',
