@@ -250,10 +250,10 @@ app.controller('catalogCtrl', function($scope, $document) {
 			company: 'Empire Deluxe Internet Edition',
 			url: 'http://www.killerbeesoftware.com/kbsgames/ednew/'
 		},
-		{
-			company: 'E\'s Friends',
-			url: 'https://www.bmtmicro.com/BMTCatalog/win/esfriends.html'
-		},
+		// {
+		// 	company: 'E\'s Friends',
+		// 	url: '../developers/eFriends.html'
+		// },
 		{
 			company: 'EZDetach',
 			url: 'http://www.techhit.com/ezdetach/outlook_attachments.html'
@@ -261,13 +261,13 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsF = [
-		{
-			company: 'Family Runner',
-			url: 'https://www.bmtmicro.com/BMTCatalog/multipleos/familyrunner.html'
-		},
+		// {
+		// 	company: 'Family Runner',
+		// 	url: '../developers/familyRunner.html'
+		// },
 		{
 			company: 'File Commander/2',
-			url: 'https://www.bmtmicro.com/BMTCatalog/os2/fc2.html'
+			url: '../developers/fileCommander2.html'
 		},
 		{
 			company: 'File Commander for Win95/NT',
@@ -420,10 +420,6 @@ app.controller('catalogCtrl', function($scope, $document) {
     {
       company: 'Jack of All Trades',
       url: 'http://www.dingogames.com/jack/'
-    },
-    {
-      company: 'Jets\'n\'Guns',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/jetsnguns.html'
     },
     {
       company: 'Jump To Window',
