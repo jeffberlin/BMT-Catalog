@@ -493,7 +493,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Money Quiz-Counter',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/moneyquizcounter.html'
+      url: '../developers/moneyQuizCounter.html'
     },
     {
       company: 'Mr Cool Ball',
