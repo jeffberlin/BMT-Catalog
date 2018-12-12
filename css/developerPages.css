@@ -7,6 +7,10 @@ ORANGE: #EF9A00
   margin-bottom: 15px;
 }
 
+/* .featured-img img {
+  max-height: 200px;
+} */
+
 .featured-links a {
   font-size: 16px;
 }
@@ -20,7 +24,7 @@ ORANGE: #EF9A00
   margin-top: 15px;
   letter-spacing: .7px;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 8px;
   -webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
