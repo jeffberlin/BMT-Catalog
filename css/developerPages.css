@@ -7,6 +7,11 @@ ORANGE: #EF9A00
   margin-bottom: 15px;
 }
 
+u {
+  text-decoration-color: #EF9A00;
+  text-decoration-line: underline;
+}
+
 /* .featured-img img {
   max-height: 200px;
 } */
