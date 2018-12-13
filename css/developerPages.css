@@ -9,6 +9,7 @@ ORANGE: #EF9A00
 
 u {
   text-decoration-color: #EF9A00;
+  -webkit-text-decoration-color: #EF9A00;
   text-decoration-line: underline;
 }
 
