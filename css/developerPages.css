@@ -24,6 +24,25 @@ u {
   margin-bottom: 5px !important;
 }
 
+#priceButton {
+  border: 1px solid #195a7c;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-color: #ffffff;
+  color: #ef9a00;
+  font-size: 13px;
+  padding: 1px 25px;
+  letter-spacing: .7px;
+  font-weight: 600;
+}
+
+#priceButton:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+}
+
 .demo-btn {
   background-color: #ef9a00;
   border: none;
