@@ -36,3 +36,9 @@ $("#back").click(function() {
 	$("#back").toggle();
 	$("#compare").toggle();
 });
+
+// Used for price selection on Developer pages
+$('#priceButton').click(function() {
+	var buyOption = $('#pricingOptions').val();
+	window.open(buyOption);
+});

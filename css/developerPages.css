@@ -14,12 +14,14 @@ u {
   -webkit-text-decoration-line: underline;
 }
 
-/* .featured-img img {
-  max-height: 200px;
-} */
-
 .featured-links a {
   font-size: 16px;
+}
+
+.product-specs {
+  font-size: 16px !important;
+  letter-spacing: .7px;
+  margin-bottom: 5px !important;
 }
 
 .demo-btn {
