@@ -28,7 +28,7 @@ u {
   border: 1px solid #195a7c;
   border-radius: 8px;
   -webkit-border-radius: 8px;
-  background-color: #ddd;
+  background-color: rgba(0,0,0,.1);
   color: #ef9a00;
   font-size: 13px;
   padding: 1px 25px;
