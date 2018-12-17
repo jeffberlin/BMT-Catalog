@@ -334,7 +334,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'Goobs',
-			url: 'https://www.bmtmicro.com/BMTCatalog/win/goobs.html'
+			url: '../developers/goobs.html'
 		},
 		{
 			company: 'Gravity Core by Suisoft ',
