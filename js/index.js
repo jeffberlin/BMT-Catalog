@@ -38,7 +38,17 @@ $("#back").click(function() {
 });
 
 // Used for price selection on Developer pages
-$('#priceButton').click(function() {
+$('#pricingOptions').one('change', function() {
+	$('#priceButton').prop('disabled', false);
+});
+
+$('#priceButton').on('click', function() {
 	var buyOption = $('#pricingOptions').val();
 	window.open(buyOption);
-});
+})
+
+
+// $('#priceButton').click(function() {
+// 	var buyOption = $('#pricingOptions').val();
+// 	window.open(buyOption);
+// });
