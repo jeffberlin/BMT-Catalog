@@ -24,7 +24,7 @@ u {
   margin-bottom: 5px !important;
 }
 
-#priceButton {
+#priceButton, .priceButton {
   border: 1px solid #195a7c;
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -39,7 +39,7 @@ u {
   box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
 }
 
-#priceButton:hover {
+#priceButton:hover, .priceButton:hover {
   cursor: pointer;
   background-color: #195a7c;
   -webkit-transition: all 0.3s ease;
