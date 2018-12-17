@@ -271,7 +271,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'File Commander for Win95/NT',
-			url: 'https://www.bmtmicro.com/BMTCatalog/win/fcwin.html'
+			url: '../developers/fileCommanderWin.html'
 		},
 		{
 			company: 'File Splitter Deluxe',
