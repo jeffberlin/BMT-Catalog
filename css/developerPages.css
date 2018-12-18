@@ -88,3 +88,9 @@ u {
     width: 250px;
   }
 }
+
+@media (max-width: 880px) {
+  .company-logo img {
+    width: 240px;
+  }
+}
