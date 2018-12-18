@@ -24,6 +24,11 @@ u {
   margin-bottom: 5px !important;
 }
 
+.product-note {
+  font-size: 14px !important;
+  margin-top: 15px !important;
+}
+
 #priceButton, .priceButton {
   border: 1px solid #195a7c;
   border-radius: 8px;
@@ -84,13 +89,8 @@ u {
     font-size: 16px !important;
   }
 
-  /* .featured-img img {
-    width: 250px;
-  } */
-}
-
-/* @media (max-width: 880px) {
-  .company-logo img {
-    width: 240px;
+  .product-note {
+    font-size: 13px !important;
   }
-} */
+
+}
