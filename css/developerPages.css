@@ -7,15 +7,12 @@ ORANGE: #EF9A00
   margin-bottom: 15px;
 }
 
-u {
-  text-decoration-color: #EF9A00;
-  text-decoration-line: underline;
-  -webkit-text-decoration-color: #EF9A00;
-  -webkit-text-decoration-line: underline;
-}
-
 .featured-links a {
   font-size: 16px;
+}
+
+.product-top-info {
+  margin-bottom: 3rem !important;
 }
 
 .product-specs {
@@ -93,4 +90,15 @@ u {
     font-size: 13px !important;
   }
 
+}
+
+@media (max-width: 575px) {
+  .product-top-info {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .product-note {
+    margin-bottom: 1.5rem !important;
+  }
+  
 }
