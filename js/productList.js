@@ -392,7 +392,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'In Charge!',
-      url: 'https://www.bmtmicro.com/incharge/'
+      url: '../developers/inCharge.html'
     },
     {
       company: 'Inflater Ball',
