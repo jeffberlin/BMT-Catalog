@@ -98,7 +98,7 @@ ORANGE: #EF9A00
 
 @media (max-width: 575px) {
 
-  .product-note, .first-section, .product-top-info, .row {
+  .product-note, .first-section, .product-top, .row {
     margin-bottom: 1.5rem !important;
   }
 
