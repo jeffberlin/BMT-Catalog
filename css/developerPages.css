@@ -84,13 +84,13 @@ u {
     font-size: 16px !important;
   }
 
-  .featured-img img {
+  /* .featured-img img {
     width: 250px;
-  }
+  } */
 }
 
-@media (max-width: 880px) {
+/* @media (max-width: 880px) {
   .company-logo img {
     width: 240px;
   }
-}
+} */
