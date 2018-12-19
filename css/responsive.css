@@ -57,41 +57,7 @@
   .page-content-wrap p {
     font-size: 16px;
   }
-  
-}
 
-@media (min-width: 769px) {
-  .navbar-toggle {
-    display: none;
-  }
-
-  .navbar-nav > li {
-    float: left;
-  }
-
-  .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
-
-  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-
-  .dropdown-menu {
-    position: absolute !important;
-  }
-
-}
-
-@media (max-width: 768px) {
   .navbar.navbar-fixed-top .navbar-collapse {
     max-height: calc(100% - 70px);
     margin-top: 70px;
@@ -153,6 +119,37 @@
 
   h1 {
     font-size: 34px !important;
+  }
+
+}
+
+@media (min-width: 769px) {
+  .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-nav > li {
+    float: left;
+  }
+
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+
+  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu {
+    position: absolute !important;
   }
 
 }
