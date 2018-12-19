@@ -84,9 +84,13 @@ ORANGE: #EF9A00
    margin-bottom: 1.5rem;
 }
 
+.row-section {
+  margin-bottom: 3rem !important;
+}
+
 /* Responsive */
 @media (max-width: 992px) {
-  
+
   p {
     font-size: 16px !important;
   }
@@ -99,8 +103,12 @@ ORANGE: #EF9A00
 
 @media (max-width: 575px) {
 
-  .product-note, .first-section, .product-top-info, .row {
+  .product-note, .first-section, .product-top-info {
     margin-bottom: 1.5rem !important;
+  }
+
+  .info-section {
+    margin-bottom: 1rem !important;
   }
 
 }

@@ -47,6 +47,10 @@
     margin-bottom: 37px !important;
   }
 
+  .page-content-wrap {
+    margin: 0px 30px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -110,7 +114,7 @@
 	}
 
 	.page-content-wrap {
-		margin-left: 0;
+		margin: 0px;
 	}
 
 	.boxed-layout-header.page-header.header-small  {
