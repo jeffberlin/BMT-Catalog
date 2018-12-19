@@ -161,7 +161,7 @@
 @media (max-width: 576px) {
 
   .table {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   .signup-btn {
