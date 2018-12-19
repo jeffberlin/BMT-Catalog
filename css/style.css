@@ -70,6 +70,9 @@ strong {
 
 u {
   text-decoration-color: #EF9A00;
+  text-decoration-line: underline;
+  -webkit-text-decoration-color: #EF9A00;
+  -webkit-text-decoration-line: underline;
 }
 
 button:focus, input:focus, select:focus {
@@ -87,11 +90,4 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   border-left: 5px solid #eee;
-}
-
-u {
-  text-decoration-color: #EF9A00;
-  text-decoration-line: underline;
-  -webkit-text-decoration-color: #EF9A00;
-  -webkit-text-decoration-line: underline;
 }

@@ -157,3 +157,15 @@
   }
 
 }
+
+@media (max-width: 576px) {
+
+  .table {
+    font-size: 12px;
+  }
+
+  .signup-btn {
+    font-size: 14px !important;
+    padding: 8px 18px !important;
+  }
+}
