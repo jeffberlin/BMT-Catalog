@@ -169,11 +169,3 @@
     padding: 8px 18px !important;
   }
 }
-
-@media (max-width: 351px) {
-
-  .tier-th {
-    min-width: 45px !important;
-    padding: 2px !important;
-  }
-}
