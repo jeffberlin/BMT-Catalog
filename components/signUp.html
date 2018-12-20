@@ -113,6 +113,21 @@
       font-size: 12px;
       letter-spacing: .4px;
     }
+
+    .tier-th {
+      padding: 8px !important;
+      min-width: 65px !important;
+    }
+    @media (max-width: 351px) {
+
+      .tier-th {
+        min-width: 45px !important;
+
+      }
+      .table td, .table th {
+        padding: 4px !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -217,9 +232,9 @@
                     <thead>
                       <tr>
                         <th scope="col" class="table-guide"><i class="far fa-circle"></i> - Optional</br><i class="fas fa-check"></i> - Standard</th>
-                        <th scope="col" style="width: 125px; padding: 10px;">Basic</th>
-                        <th scope="col" style="width: 125px; padding: 10px;">Advanced</th>
-                        <th scope="col" style="width: 125px; padding: 10px;">Customized</th>
+                        <th scope="col" class="tier-th">Basic</th>
+                        <th scope="col" class="tier-th">Advanced</th>
+                        <th scope="col" class="tier-th">Customized</th>
                       </tr>
                     </thead>
                     <tbody>
