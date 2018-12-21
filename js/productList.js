@@ -527,10 +527,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://self-helpsoftware.com/NFB'
     },
     {
-      company: 'No Fly Zone Screensaver',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/noflyzonescreensaver.html'
-    },
-    {
       company: 'Num-Blocks',
       url: 'http://www.uppergroove.com/numblocks.htm'
     },
