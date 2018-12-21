@@ -72,7 +72,7 @@
                 </div>
               </li>
               <li id="menu-item" class="top-menu menu-item">
-                <a title="Contact" href="contact.html">Contact</a>
+                <a title="Contact" href="../components/contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -114,7 +114,7 @@
                   </div>
                 </aside>
               </div>
-              <div class="col-md-8 page-content-wrap">
+              <div class="col-lg-8 col-md-10 page-content-wrap">
                 <div class="row">
                   <div class="col-md-12">
                     <h1 class="page-title title-in-content">Net Drive</h1>
@@ -123,25 +123,92 @@
                 <div class="featured-links text-left">
                   <a href="https://www.bmtmicro.com/netdrive/" target="_blank">Visit Site</a>
                 </div>
-                <p style="font-size: 16px; letter-spacing: .7px;"><strong>Platform:</strong> Windows</br>
-                <strong>Demo:</strong> <a href="https://demo.bmtmicro.com/02037/MoneyQuizCounter_Setup.exe"> Download</a> (2.4 MB)
+                <p class="info-section">
+                  File Commander/2 is a 32 bit OS/2 text mode file manager and shell that allows you to locate, copy, move, delete, view, edit and execute your files in a quick, convenient and customizable manner.
                 </p>
-                <p>
-                  NetDrive for OS/2 is a virtual file system which allows to create a virtual volume and mount various resources to the volume. Current version of NetDrive for OS/2 supports local, network and FTP resources.
-                </p>
-                <p>
-                  <strong>System Requirements:</strong> OS/2 Warp 4, Warp Server for e-business v4.5
-                  MPTS and TCP/IP
-                  High or medium speed Internet connection with cable modems, ADSL, etc. for FTP resources
-                </p>
-                <div class="featured-img text-left">
-                  <a data-width="100" href="../images/money-quiz1.jpg" data-toggle="lightbox" data-remote="../images/money-quiz1.jpg">
-                    <img src="../images/money-quiz1.jpg" alt="Money Quiz-Counter screenshot" height="250">
-                  </a>
-                  <a data-width="100" href="../images/money-quiz2.jpg" data-toggle="lightbox" data-remote="../images/money-quiz2.jpg">
-                    <img src="../images/money-quiz2.jpg" alt="Money Quiz-Counter screenshot" height="250">
-                  </a>
+                <div class="row justify-content-between info-section">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top-img">
+                    <div class="featured-img text-left">
+                      <img src="../images/filecommander-logo.png" alt="File Commander logo" width="300" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <p class="product-specs">
+                      <strong>Platform:</strong> OS/2 Warp 4
+                    </p>
+                    <p class="product-specs">
+                      <strong>Price:</strong>
+                      <select id="pricingOptions" style="width: 150px;">
+                        <option selected disabled>Select</option>
+                        <option value="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?PRODUCTID=45801">$29.00 (1 user)</option>
+                        <option value="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?PRODUCTID=45802">$200.00 (10 users)</option>
+                        <option value="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?PRODUCTID=4580003">SFTP Plugin $15.00</option>
+                        <option value="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?PRODUCTID=45804">Network File System Ver 3 Plugin $15.00</option>
+                        <option value="https://secure.bmtmicro.com/servlets/Orders.ShoppingCart?PRODUCTID=45805">VFAT Plugin $10.00</option>
+                      </select>
+                      <button id="priceButton" type="button" name="button" disabled>
+                        Buy
+                      </button>
+                    </p>
+                    <a href="http://ftp2.bmtmicro.com/fc2_240.zip">
+                      <button type="button" name="button" class="demo-btn" style="margin-bottom: 0px; margin-top: 0px;">Download Demo</button>
+                    </a>
+                  </div>
                 </div>
+                <h4 class="product-features text-center"><u>Features</u></h4>
+                <div class="row justify-content-between">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <ul style="list-style-type: circle; padding-left: 15px;">
+                      <li>
+                        <p style="font-size: 16px;">
+                          Built in archive support including archives inside archives to any depth, with ZIP, ARJ, RAR, LZH, ACE, HA, TAR, GZip, 7ZIP and BZIP2 types currently supported
+                        </p>
+                      </li>
+                      <li>
+                        <p style="font-size: 16px;">
+                          Mouse support
+                        </p>
+                      </li>
+                      <li>
+                        <p style="font-size: 16px;">
+                          Online help
+                        </p>
+                      </li>
+                      <li>
+                        <p style="font-size: 16px;">
+                          Code page translation function in viewer and editor
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <ul style="list-style-type: circle; padding-left: 15px;">
+                      <li>
+                        <p style="font-size: 16px;">
+                          Full Unicode file name support
+                        </p>
+                      </li>
+                      <li>
+                        <p style="font-size: 16px;">
+                          Full support for large files and volumes (up to 2^63 bytes)
+                        </p>
+                      </li>
+                      <li>
+                        <p style="font-size: 16px;">
+                          Built in file viewer with hex view mode and syntax highlighting
+                        </p>
+                      </li>
+                      <li>
+                        <p style="font-size: 16px;">
+                          Built in editor with undo/redo, syntax highlighting and cut/copy/paste ability using the global clipboard
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p class="text-center" style="margin-bottom: 0px;">
+                  <a href="http://silk.apana.org.au/fc.html" target="_blank">More features...</a>
+                </p>
               </div>
             </div>
           </article>

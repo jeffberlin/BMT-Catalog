@@ -520,7 +520,7 @@ app.controller('catalogCtrl', function($scope, $document) {
   $scope.productsN = [
     {
       company: 'Netdrive',
-      url: 'https://www.bmtmicro.com/BMTCatalog/os2/netdrive.html'
+      url: '../developers/netDrive.html'
     },
     {
       company: 'New Freedom Bible',
