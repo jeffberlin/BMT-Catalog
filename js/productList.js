@@ -551,7 +551,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'OS/2 e-Zine!',
-      url: 'https://www.bmtmicro.com/BMTCatalog/os2/os2ezine.html'
+      url: '../developers/osEzine.html'
     },
   ]
 
