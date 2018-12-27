@@ -660,7 +660,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Repton 1',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/repton1.html'
+      url: '../developers/repton1.html'
     },
     {
       company: 'Return on Investment Solver',
