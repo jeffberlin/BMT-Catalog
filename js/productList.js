@@ -574,7 +574,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Personal Time Keeper',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/personaltimekeeper.html'
+      url: '../developers/personalTimeKeeper.html'
     },
     {
       company: 'Pharaoh\'s Curse Gold',
