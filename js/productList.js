@@ -590,7 +590,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Pipeline Plus',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/pipelineplus.html'
+      url: '../developers/pipelinePlus.html'
     },
     {
       company: 'Pirates of Treasure Island',
