@@ -624,10 +624,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       company: 'Public Space',
       url: 'http://www.publicspace.net/'
     },
-    {
-      company: 'Puzzle Word',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/puzzleword.html'
-    },
   ]
 
   $scope.productsQ = [
@@ -639,10 +635,10 @@ app.controller('catalogCtrl', function($scope, $document) {
       company: 'QuickJump',
       url: 'http://www.techhit.com/QuickJump/open_navigate_windows_folders.html'
     },
-    {
-      company: 'Quizland',
-      url: 'https://www.bmtmicro.com/BMTCatalog/multipleos/quizland.html'
-    },
+    // {
+    //   company: 'Quizland',
+    //   url: 'https://www.bmtmicro.com/BMTCatalog/multipleos/quizland.html'
+    // },
   ]
 
   $scope.productsR = [
@@ -656,7 +652,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Ravenskull',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/ravenskull.html'
+      url: '../developers/ravenskull.html'
     },
     {
       company: 'Recovery Companion',
