@@ -687,7 +687,7 @@ app.controller('catalogCtrl', function($scope, $document) {
   $scope.productsS = [
     {
       company: 'ScreenSaver',
-      url: 'https://www.bmtmicro.com/BMTCatalog/multipleos/ssaver.html'
+      url: '../developers/screenSaver.html'
     },
     {
       company: 'SDI LPD',
