@@ -822,7 +822,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'TimeKeeper/2',
-      url: 'https://www.bmtmicro.com/BMTCatalog/os2/timekeeper2.html'
+      url: '../developers/timeKeeper2.html'
     },
     {
       company: 'Time-Lapse Tool Pro',
@@ -838,7 +838,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'TK-Tools',
-      url: 'https://www.bmtmicro.com/BMTCatalog/os2/tktools.html'
+      url: '../developers/tkTools.html'
     },
     {
       company: 'TN3270 Plus',
