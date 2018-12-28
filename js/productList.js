@@ -738,10 +738,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.techhit.com/SnoozeIt/'
     },
     {
-      company: 'Snowball Frenzy',
-      url: 'https://www.bmtmicro.com/BMTCatalog/win/snowballfrenzy.html'
-    },
-    {
       company: 'SoftSew Design',
       url: 'http://www.softsew.com/products.htm'
     },
