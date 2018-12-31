@@ -904,7 +904,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'VOICE Memberships',
-      url: 'https://www.bmtmicro.com/BMTCatalog/os2/voicememberships.html'
+      url: '../developers/voiceMemberships.html'
     },
   ]
 
