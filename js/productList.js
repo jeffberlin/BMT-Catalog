@@ -959,7 +959,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Workplace Security for OS/2 Warp',
-      url: 'https://www.bmtmicro.com/BMTCatalog/os2/wpsecurity.html'
+      url: '../developers/workplaceSecurity.html'
     },
   ]
 
