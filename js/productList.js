@@ -858,7 +858,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Turbo Business Apps for Linux',
-      url: 'https://www.bmtmicro.com/BMTCatalog/linux/turbobusinessappsforlinux.html'
+      url: '../developers/turboLinux.html'
     },
     {
       company: 'TurboHex',
