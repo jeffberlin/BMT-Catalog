@@ -45,7 +45,6 @@ button {
   margin: 10px 1px;
   white-space: normal;
   letter-spacing: 0;
-  /* text-transform: uppercase; */
   will-change: box-shadow,transform;
 }
 
@@ -59,7 +58,7 @@ h5 {
   font-size: 18px;
   font-weight: 700;
 }
-/* */
+
 p {
   letter-spacing: .5px;
 }
@@ -81,7 +80,6 @@ button:focus, input:focus, select:focus {
 }
 
 hr {
-  /* border-top: 1px solid rgba(25, 90, 124, 0.2); */
   margin-top: 15px !important;
   margin-bottom: 15px !important;
 }

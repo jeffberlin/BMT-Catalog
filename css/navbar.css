@@ -238,21 +238,7 @@ ORANGE: #EF9A00
   transform: rotate(-45deg);
   top: -6px;
 }
-.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(1) {
-  top: 0;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(2) {
-  top: 0;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(3) {
+.navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(1), .navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(2), .navbar .navbar-toggle[aria-expanded=false] .icon-bar:nth-child(3) {
   top: 0;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;

@@ -20,7 +20,7 @@ ORANGE: #EF9A00
   padding: 70px 0;
 }
 
-.media-image {
+.media-image, .social-icons {
   margin-bottom: 20px;
 }
 
@@ -63,10 +63,6 @@ ORANGE: #EF9A00
 .social-icons a img {
   max-width: 28px;
   height: auto;
-}
-
-.social-icons {
-  margin-bottom: 20px;
 }
 
 #topcontrol {

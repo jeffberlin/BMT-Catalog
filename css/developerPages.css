@@ -75,10 +75,6 @@ ORANGE: #EF9A00
   transition: all 0.3s ease;
 }
 
-/* .first-section {
-  margin-bottom: 3rem;
-} */
-
 .product-features {
    letter-spacing: .7px;
    margin-bottom: 1.5rem;
@@ -102,10 +98,6 @@ ORANGE: #EF9A00
 }
 
 @media (max-width: 575px) {
-
-  /* .product-note, .first-section, .product-top-info, .row-section {
-    margin-bottom: 1.5rem !important;
-  } */
 
   .info-section, .top-img, .product-note {
     margin-bottom: 1.5rem !important;
