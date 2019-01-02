@@ -635,10 +635,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       company: 'QuickJump',
       url: 'http://www.techhit.com/QuickJump/open_navigate_windows_folders.html'
     },
-    // {
-    //   company: 'Quizland',
-    //   url: 'https://www.bmtmicro.com/BMTCatalog/multipleos/quizland.html'
-    // },
   ]
 
   $scope.productsR = [
