@@ -160,4 +160,8 @@
     font-size: 14px !important;
     padding: 8px 18px !important;
   }
+
+  .signup-header {
+    font-size: 28px;
+  }
 }
