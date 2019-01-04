@@ -121,10 +121,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 			url: 'http://www.carlbarnes.com/chm4clarion.htm',
 		},
 		{
-			company: 'Chronilist',
-			url: '',
-		},
-		{
 			company: 'Church Office Professional',
 			url: 'http://www.dbandsons.com/',
 		},
@@ -139,10 +135,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 		{
 			company: 'Clarion Source Search',
 			url: 'http://www.carlbarnes.com/css.htm',
-		},
-		{
-			company: 'Client Tracks',
-			url: '',
 		},
 		{
 			company: 'Cloud Secure',
@@ -250,10 +242,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 			company: 'Empire Deluxe Internet Edition',
 			url: 'http://www.killerbeesoftware.com/kbsgames/ednew/'
 		},
-		// {
-		// 	company: 'E\'s Friends',
-		// 	url: '../developers/eFriends.html'
-		// },
 		{
 			company: 'EZDetach',
 			url: 'http://www.techhit.com/ezdetach/outlook_attachments.html'
@@ -261,10 +249,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsF = [
-		// {
-		// 	company: 'Family Runner',
-		// 	url: '../developers/familyRunner.html'
-		// },
 		{
 			company: 'File Commander/2',
 			url: '../developers/fileCommander2.html'
@@ -399,10 +383,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.dyvision.co.uk/ifbinfo.htm'
     },
     {
-      company: 'Integra Office',
-      url: ''
-    },
-    {
       company: 'Intensity XS',
       url: 'http://www.midnightsynergy.com/intensity/'
     },
@@ -506,10 +486,6 @@ app.controller('catalogCtrl', function($scope, $document) {
     {
       company: 'My Problem Solved!',
       url: 'http://www.dbandsons.com/'
-    },
-    {
-      company: 'Mystica',
-      url: ''
     },
     {
       company: 'Mystic Mist',
@@ -667,10 +643,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.midnightsynergy.com/returntowonderland/'
     },
     {
-      company: 'Rockfall - The Return',
-      url: ''
-    },
-    {
       company: 'Rock\'n\'Roll 2004',
       url: 'http://www.300ad.com/rnr2004.php'
     },
@@ -704,10 +676,6 @@ app.controller('catalogCtrl', function($scope, $document) {
     {
       company: 'SharpEye2',
       url: 'http://www.visiv.co.uk/'
-    },
-    {
-      company: 'SignOut',
-      url: ''
     },
     {
       company: 'SimplyFile',
