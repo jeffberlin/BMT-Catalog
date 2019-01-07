@@ -164,4 +164,9 @@
   .signup-header {
     font-size: 28px;
   }
+
+  /* Services section */
+  .small-margin {
+    margin-bottom: 65px !important;
+  }
 }
