@@ -336,10 +336,6 @@ app.controller('catalogCtrl', function($scope, $document) {
 			url: 'http://www.webaby-corp.com/store/heatherhoney.htm'
 		},
 		{
-			company: 'Hexvex',
-			url: ''
-		},
-		{
 			company: 'Home Zen Fire',
 			url: 'http://www.webaby-corp.com/store/homezen2.htm'
 		},
