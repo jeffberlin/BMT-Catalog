@@ -28,7 +28,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'Address N More',
-			url: '../developers/addressNmore.html',
+			url: 'products/address-n-more.html',
 		},
 		{
 			company: 'Advanced Landscape Editor',
@@ -251,11 +251,11 @@ app.controller('catalogCtrl', function($scope, $document) {
 	$scope.productsF = [
 		{
 			company: 'File Commander/2',
-			url: '../developers/fileCommander2.html'
+			url: 'products/file-commander2.html'
 		},
 		{
 			company: 'File Commander for Win95/NT',
-			url: '../developers/fileCommanderWin.html'
+			url: 'products/file-commander-win.html'
 		},
 		{
 			company: 'File Splitter Deluxe',
@@ -318,7 +318,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'Goobs',
-			url: '../developers/goobs.html'
+			url: 'products/goobs.html'
 		},
 		{
 			company: 'Gravity Core by Suisoft ',
@@ -372,7 +372,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'In Charge!',
-      url: '../developers/inCharge.html'
+      url: 'products/incharge.html'
     },
     {
       company: 'Inflater Ball',
@@ -402,7 +402,7 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.techhit.com/JumpToWindow/'
     },
     {
-      company: 'Journal 7',
+      company: 'Journal 8',
       url: 'http://www.davidrm.com/'
     },
   ]
@@ -469,7 +469,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Money Quiz-Counter',
-      url: '../developers/moneyQuizCounter.html'
+      url: 'products/money-quiz-counter.html'
     },
     {
       company: 'Mr Cool Ball',
@@ -492,7 +492,7 @@ app.controller('catalogCtrl', function($scope, $document) {
   $scope.productsN = [
     {
       company: 'Netdrive',
-      url: '../developers/netDrive.html'
+      url: 'products/net-drive.html'
     },
     {
       company: 'New Freedom Bible',
@@ -523,7 +523,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'OS/2 e-Zine!',
-      url: '../developers/osEzine.html'
+      url: 'products/os-ezine.html'
     },
   ]
 
@@ -546,7 +546,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Personal Time Keeper',
-      url: '../developers/personalTimeKeeper.html'
+      url: 'products/personal-time-keeper.html'
     },
     {
       company: 'Pharaoh\'s Curse Gold',
@@ -562,7 +562,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Pipeline Plus',
-      url: '../developers/pipelinePlus.html'
+      url: 'products/pipeline-plus.html'
     },
     {
       company: 'Pirates of Treasure Island',
@@ -620,7 +620,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Ravenskull',
-      url: '../developers/ravenskull.html'
+      url: 'products/ravenskull.html'
     },
     {
       company: 'Recovery Companion',
@@ -628,7 +628,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Repton 1',
-      url: '../developers/repton1.html'
+      url: 'products/repton1.html'
     },
     {
       company: 'Return on Investment Solver',
@@ -651,7 +651,7 @@ app.controller('catalogCtrl', function($scope, $document) {
   $scope.productsS = [
     {
       company: 'ScreenSaver',
-      url: '../developers/screenSaver.html'
+      url: 'products/screensaver.html'
     },
     {
       company: 'SDI LPD',
@@ -706,7 +706,7 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.solitairecity.com/Main.shtml'
     },
     {
-      company: 'SolSuite 2018 - Solitaire Card Games Suite',
+      company: 'SolSuite 2019 - Solitaire Card Games Suite',
       url: 'http://solsuite.com/'
     },
     {
@@ -722,11 +722,7 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.winstep.net/startmenuorganizer.asp'
     },
     {
-      company: 'StayOn',
-      url: 'http://stayonpro.com/'
-    },
-    {
-      company: 'StayOn',
+      company: 'Sudoku Up',
       url: 'http://www.sudokuup.com/'
     },
     {
@@ -782,7 +778,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'TimeKeeper/2',
-      url: '../developers/timeKeeper2.html'
+      url: 'products/time-keeper2.html'
     },
     {
       company: 'Time-Lapse Tool Pro',
@@ -798,7 +794,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'TK-Tools',
-      url: '../developers/tkTools.html'
+      url: 'products/tk-tools.html'
     },
     {
       company: 'TN3270 Plus',
@@ -818,7 +814,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Turbo Business Apps for Linux',
-      url: '../developers/turboLinux.html'
+      url: 'products/turbo-business-linux.html'
     },
     {
       company: 'TurboHex',
@@ -864,7 +860,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'VOICE Memberships',
-      url: '../developers/voiceMemberships.html'
+      url: 'products/voice-memberships.html'
     },
   ]
 
@@ -919,7 +915,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Workplace Security for OS/2 Warp',
-      url: '../developers/workplaceSecurity.html'
+      url: 'products/workplace-security.html'
     },
   ]
 
