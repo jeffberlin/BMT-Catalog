@@ -28,7 +28,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'Address N More',
-			url: 'products/address-n-more.html',
+			url: 'https://www.bmtmicro.com/bmtcatalog/products/address-n-more',
 		},
 		{
 			company: 'Advanced Landscape Editor',
@@ -251,11 +251,11 @@ app.controller('catalogCtrl', function($scope, $document) {
 	$scope.productsF = [
 		{
 			company: 'File Commander/2',
-			url: 'products/file-commander2.html'
+			url: 'https://www.bmtmicro.com/bmtcatalog/products/file-commander2'
 		},
 		{
 			company: 'File Commander for Win95/NT',
-			url: 'products/file-commander-win.html'
+			url: 'https://www.bmtmicro.com/bmtcatalog/products/file-commander-win'
 		},
 		{
 			company: 'File Splitter Deluxe',
@@ -318,7 +318,7 @@ app.controller('catalogCtrl', function($scope, $document) {
 		},
 		{
 			company: 'Goobs',
-			url: 'products/goobs.html'
+			url: 'https://www.bmtmicro.com/bmtcatalog/products/goobs'
 		},
 		{
 			company: 'Gravity Core by Suisoft ',
@@ -372,7 +372,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'In Charge!',
-      url: 'products/incharge.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/incharge'
     },
     {
       company: 'Inflater Ball',
@@ -469,7 +469,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Money Quiz-Counter',
-      url: 'products/money-quiz-counter.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/money-quiz-counter'
     },
     {
       company: 'Mr Cool Ball',
@@ -492,7 +492,7 @@ app.controller('catalogCtrl', function($scope, $document) {
   $scope.productsN = [
     {
       company: 'Netdrive',
-      url: 'products/net-drive.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/net-drive'
     },
     {
       company: 'New Freedom Bible',
@@ -523,7 +523,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'OS/2 e-Zine!',
-      url: 'products/os-ezine.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/os-ezine'
     },
   ]
 
@@ -546,7 +546,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Personal Time Keeper',
-      url: 'products/personal-time-keeper.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/personal-time-keeper'
     },
     {
       company: 'Pharaoh\'s Curse Gold',
@@ -562,7 +562,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Pipeline Plus',
-      url: 'products/pipeline-plus.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/pipeline-plus'
     },
     {
       company: 'Pirates of Treasure Island',
@@ -620,7 +620,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Ravenskull',
-      url: 'products/ravenskull.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/ravenskull'
     },
     {
       company: 'Recovery Companion',
@@ -628,7 +628,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Repton 1',
-      url: 'products/repton1.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/repton1'
     },
     {
       company: 'Return on Investment Solver',
@@ -651,7 +651,7 @@ app.controller('catalogCtrl', function($scope, $document) {
   $scope.productsS = [
     {
       company: 'ScreenSaver',
-      url: 'products/screensaver.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/screensaver'
     },
     {
       company: 'SDI LPD',
@@ -778,7 +778,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'TimeKeeper/2',
-      url: 'products/time-keeper2.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/time-keeper2'
     },
     {
       company: 'Time-Lapse Tool Pro',
@@ -794,7 +794,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'TK-Tools',
-      url: 'products/tk-tools.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/tk-tools'
     },
     {
       company: 'TN3270 Plus',
@@ -814,7 +814,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Turbo Business Apps for Linux',
-      url: 'products/turbo-business-linux.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/turbo-business-linux'
     },
     {
       company: 'TurboHex',
@@ -860,7 +860,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'VOICE Memberships',
-      url: 'products/voice-memberships.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/voice-memberships'
     },
   ]
 
@@ -915,7 +915,7 @@ app.controller('catalogCtrl', function($scope, $document) {
     },
     {
       company: 'Workplace Security for OS/2 Warp',
-      url: 'products/workplace-security.html'
+      url: 'https://www.bmtmicro.com/bmtcatalog/products/workplace-security'
     },
   ]
 
