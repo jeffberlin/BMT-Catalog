@@ -305,6 +305,10 @@ app.controller('catalogCtrl', function($scope, $document) {
 			company: 'Funny Faces',
 			url: 'http://www.arcadelab.com/face.html'
 		},
+		{
+			company: 'FeelThere',
+			url: 'https://www.feelthere.com/'
+		},
 	]
 
 	$scope.productsG = [
