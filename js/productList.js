@@ -246,6 +246,10 @@ app.controller('catalogCtrl', function($scope, $document) {
 			company: 'EZDetach',
 			url: 'http://www.techhit.com/ezdetach/outlook_attachments.html'
 		},
+		// {
+		// 	company: 'Employee Schedule',
+		// 	url: 'http://satxusasoftware.com/employee_schedule.html'
+		// },
 	]
 
 	$scope.productsF = [
