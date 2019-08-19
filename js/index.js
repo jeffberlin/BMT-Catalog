@@ -45,10 +45,4 @@ $('#pricingOptions').one('change', function() {
 $('#priceButton').on('click', function() {
 	var buyOption = $('#pricingOptions').val();
 	window.open(buyOption);
-})
-
-
-// $('#priceButton').click(function() {
-// 	var buyOption = $('#pricingOptions').val();
-// 	window.open(buyOption);
-// });
+});
