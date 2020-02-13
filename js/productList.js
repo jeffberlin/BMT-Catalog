@@ -11,6 +11,10 @@ app.controller('catalogCtrl', function($scope, $document) {
 
 	$scope.productsA = [
 		{
+			name: 'AC Circuits Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
+		{
 			name: 'A+ Screensaver',
 			url: 'http://www.softdd.com/screens/index.htm',
 		},
@@ -100,6 +104,10 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsC = [
+		{
+			name: 'Challenges for Electricity',
+			url: 'https://www.etcai.com/site.html'
+		},
     {
       name: 'Camp Buddy',
       url: 'https://www.blitsgames.com/'
@@ -171,6 +179,14 @@ app.controller('catalogCtrl', function($scope, $document) {
 	]
 
 	$scope.productsD = [
+		{
+			name: 'Digital Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
+		{
+			name: 'DC Circuits Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
 		{
 			name: 'DataRevelation',
 			url: 'http://www.datarevelation.com/'
@@ -517,6 +533,14 @@ app.controller('catalogCtrl', function($scope, $document) {
   ]
 
   $scope.productsO =[
+		{
+			name: 'Ohmmeter Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
+		{
+			name: 'Op Amp Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
     {
       name: 'Olaf & Elmar',
       url: 'http://www.wieringsoftware.nl/'
@@ -536,6 +560,10 @@ app.controller('catalogCtrl', function($scope, $document) {
   ]
 
   $scope.productsP = [
+		{
+			name: 'Power Supply Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
     {
       name: 'Paul\'s Graphic Viewer',
       url: 'http://www.deleeuw.com.au/'
@@ -764,6 +792,14 @@ app.controller('catalogCtrl', function($scope, $document) {
   ]
 
   $scope.productsT = [
+		{
+			name: 'Trigonometry Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
+		{
+			name: 'Transistor Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
     {
       name: 'Taskforce 3',
       url: 'http://www.uppergroove.com/task3.htm'
@@ -854,6 +890,10 @@ app.controller('catalogCtrl', function($scope, $document) {
   ]
 
   $scope.productsV = [
+		{
+			name: 'Voltmeter Challenge',
+			url: 'https://www.etcai.com/site.html'
+		},
     {
       name: 'V - The File Viewer',
       url: 'http://www.fileviewer.com/index.html'
