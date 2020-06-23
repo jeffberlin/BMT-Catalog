@@ -17,5 +17,5 @@ ORANGE: #EF9A00
 }
 
 .featured-title {
-  font-size: 22px;
+  font-size: 22px !important;
 }
