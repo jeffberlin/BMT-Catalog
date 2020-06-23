@@ -632,6 +632,18 @@ app.controller('catalogCtrl', function($scope, $document) {
       name: 'Public Space',
       url: 'http://www.publicspace.net/'
     },
+		{
+			name: 'PD Howler',
+			url: 'https://thebest3d.com/howler/index.html'
+		},
+		{
+			name: 'PD Particles',
+			url: 'https://www.thebest3d.com/pdp/index9.html'
+		},
+		{
+			name: 'PD Artist',
+			url: 'https://www.thebest3d.com/pda/index11.html'
+		}
   ]
 
   $scope.productsQ = [
