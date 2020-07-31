@@ -984,6 +984,10 @@ app.controller('catalogCtrl', function($scope, $document) {
       name: 'XLQ',
       url: 'http://www.qmatix.com/index.htm'
     },
+		{
+			name: 'XYDeZiner',
+			url: 'https://www.1cnc.xyz/'
+		}
   ]
 
   $scope.productsY = [
