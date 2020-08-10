@@ -625,10 +625,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.dbandsons.com/'
     },
     {
-      name: 'Professor Green Screen',
-      url: 'http://www.professorgreenscreen.com/index.php'
-    },
-    {
       name: 'Public Space',
       url: 'http://www.publicspace.net/'
     },
@@ -742,10 +738,6 @@ app.controller('catalogCtrl', function($scope, $document) {
       url: 'http://www.dyvision.co.uk/snaketris.htm'
     },
     {
-      name: 'SnoozeIt',
-      url: 'http://www.techhit.com/SnoozeIt/'
-    },
-    {
       name: 'SoftSew Design',
       url: 'http://www.softsew.com/products.htm'
     },
@@ -819,10 +811,6 @@ app.controller('catalogCtrl', function($scope, $document) {
     {
       name: 'Taskforce 4',
       url: 'http://www.uppergroove.com/task4.htm'
-    },
-    {
-      name: 'TaxGst',
-      url: 'http://www.taxgst.com/'
     },
     {
       name: 'Team Sports Scheduling System v5',
@@ -980,10 +968,6 @@ app.controller('catalogCtrl', function($scope, $document) {
   ]
 
   $scope.productsX = [
-    {
-      name: 'XLQ',
-      url: 'http://www.qmatix.com/index.htm'
-    },
 		{
 			name: 'XYDeZiner',
 			url: 'https://www.1cnc.xyz/'
@@ -1001,10 +985,6 @@ app.controller('catalogCtrl', function($scope, $document) {
     {
       name: 'Zen Puzzle Garden',
       url: 'http://www.arcadetown.com/zenpuzzlegarden/game.asp'
-    },
-    {
-      name: 'ZipControl',
-      url: 'http://www.rpfsoftware.com/'
     },
     {
       name: 'ZModeler2',
